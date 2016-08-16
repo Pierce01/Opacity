@@ -1,5 +1,6 @@
 # Theme-Patch
 This adds in things that the amazing theme that Bunnies McGee#0972 made doesnt have, (yet)
+Demo Video: https://a.fluntcaps.me/arwqiz.webm
 
 Adds in Better code blocks.
 transparent user blocks http://i.imgur.com/rlWWYDb.png
