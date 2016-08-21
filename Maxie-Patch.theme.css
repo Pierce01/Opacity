@@ -1,0 +1,374 @@
+//META{"name":"Maxie-Patch","description":"Adds things to Bun's theme, more like a patch in a way..","author":"Maxie","version":"0.3"}*//
+
+.message-group .comment .markup pre code {
+    background: rgba(0,0,0,0) !important;
+}
+
+.theme-light .message-group .comment .markup code.inline, .theme-light .message-group .comment .markup pre {
+    background-color: rgba(255,255,255,0.3) !important;
+    color: #ffffff !important;
+}
+
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre {
+    background-color: rgba(0,0,0,0.4) !important;
+    color: #ffffff !important;
+}
+
+.theme-light .hljs {
+	color: #fff !important;
+}
+
+.chat .markup pre {
+    background: none !important;
+    border: 1px solid rgba(0,0,0,0.5) !important;
+}
+
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    opacity: rgba(0,0,0,0.5) !important;
+}
+
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre {
+	color: #839496 !important;
+}
+
+/*user popouts*/
+
+
+.user-popout .header {
+	flex-direction: column;
+    padding: 0;
+    text-transform: none;
+    padding-bottom: 10px;
+    /*background: rgba(0,0,0,0.5) url(http://i.imgur.com/X8zr2OZ.png);*/
+    background-size: 270px 213px;
+}
+
+#user-profile-modal {
+    background-color: rgba(25,25,25,0.5);
+}
+#user-profile-modal .header, #user-profile-modal .sub-header, #user-profile-modal .tab-bar, #user-profile-modal .scroller {
+    background-color: rgba(0,0,0,0) !important;
+	background-image: url() !important;
+}
+
+#user-profile-modal .guilds .guild:hover {
+	background: rgba(0,0,0,0) !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+	color: #ffffff !important;	
+}
+
+#user-profile-modal .tab-bar {
+    border-bottom: 0px solid rgba(0,0,0,0) !important;
+}
+
+#user-profile-modal footer {
+	background: rgba(0,0,0,0) !important;
+    border-top: 0px solid rgba(0,0,0,0) !important;
+}
+
+#user-profile-modal .empty {
+	background: rgba(0,0,0,0) !important;
+}
+
+#user-profile-modal .avatar-profile {
+    border: 4px solid rgba(0, 0, 0, 0.3) !important;
+	background-color: rgba(0,0,0,0) !important;
+	box-sizing: border-box;
+    background-clip: border-box;
+	width: 124px;
+    height: 124px;
+    background-size: 128px 128px;
+}
+
+
+/* General Colours, used for tooltips etc, Default is #7289da or rgba(114, 137, 218, 1)*/
+.tooltip {
+	background-color: #7289da;
+}
+.tooltip.tooltip-right:after {
+	border-right-color: #7289da;
+}
+.radio .radio-inner span:after {
+	background: #7289da;
+}
+.radio:hover span:after {
+    background: #7289da;
+}
+.guilds-wrapper .guilds .guild .guild-inner :hover {
+	background-color: #7289da;
+}
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: #7289da;
+    border-color: #7289da;
+}
+.form .btn-primary {
+    background-color: #7289da;
+}
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: #7289da;
+}
+.tab-bar.SIDE .tab-bar-item:before {
+    border-left: 4px solid #7289da;
+}
+
+.form .btn-primary:hover {
+	background-color: #697ec4;
+}
+
+/* User popouts */
+.user-popout {
+	background: rgba(0,0,0,0.3);
+}
+
+.popout.popout-right.no-arrow .user-popout {
+	background: rgba(0,0,0,0.3) !important;
+}
+
+.user-popout .header.streaming .live-on-twitch {
+    border-top: none;
+}
+
+/* Trying to solve issue mentioned in readme here, solution was to move popups to visual centre, then add a scroller for when a user has many many roles*/
+.popout.popout-right.no-arrow {
+    right: 50vw !important;
+    top: 50vh !important;
+    left: auto !important;
+    transform: translateX(0px) translateY(0px) translateZ(0px) !important;
+    margin: -225px -120px 0 0px;
+}
+
+.popout.popout-right.no-arrow .user-popout .body .section {
+    max-height: 250px;
+    overflow: scroll;
+	overflow-x: hidden;
+	padding-right: 10px;
+}
+
+.popout.popout-right.no-arrow .user-popout .body .section .section notes {
+    overflow: initial;
+	overflow-x: initial;
+}
+
+.popout.popout-right.no-arrow .user-popout .body .section::-webkit-scrollbar {
+    width: 14px;
+}
+
+.popout.popout-right.no-arrow .user-popout .body .section::-webkit-scrollbar-thumb, .popout.popout-right.no-arrow .user-popout .body .section::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.4) !important;
+}
+
+.popout.popout-right.no-arrow .user-popout .body .section::-webkit-scrollbar-thumb, .popout.popout-right.no-arrow .user-popout .body .section::-webkit-scrollbar-track-piece {
+    background-clip: padding-box;
+    border-radius: 7px;
+}
+
+/*and just for the sake of it im gonna add that scrolling to the popups on the right*/
+
+.popout.popout-left.no-arrow .user-popout .body .section {
+    max-height: 250px;
+    overflow: scroll;
+	overflow-x: hidden;
+	padding-right: 10px;
+}
+
+.popout.popout-left.no-arrow .user-popout .body .section::-webkit-scrollbar {
+    width: 14px;
+}
+
+.popout.popout-left.no-arrow .user-popout .body .section::-webkit-scrollbar-thumb, .popout.popout-left.no-arrow .user-popout .body .section::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.4) !important;
+}
+
+.popout.popout-left.no-arrow .user-popout .body .section::-webkit-scrollbar-thumb, .popout.popout-left.no-arrow .user-popout .body .section::-webkit-scrollbar-track-piece {
+    background-clip: padding-box;
+    border-radius: 7px;
+}
+
+/*-------------*/
+
+
+.user-popout .body .notes textarea:focus {
+	background: rgba(0,0,0,0.2) !important;
+}
+
+.user-popout, .popout header {
+	border-radius: 0px 0px 0 0 !important;
+}
+
+.user-popout header, .user-popout .body {
+    background: rgba(0,0,0,0) !important;
+}
+
+.user-popout .footer, .user-popout .input {
+	background: rgba(255, 255, 255, 0) !important;
+	border-top: none;
+}
+
+.user-popout .footer .quick-message-wrapper .input {
+	color: #d4d4d4 !important;
+}
+
+.popout.popout-left.no-arrow {
+    transform: translateX(-106.1%) translateY(0%) translateZ(0px) !important;
+}
+
+.user-popout .avatar-wrapper .avatar-popout {
+    border: 4px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 1);
+    background-repeat: no-repeat;
+}
+
+.avatar-popout {
+    width: 90px;
+    height: 90px;
+    background-size: 98px 98px;
+    border-radius: 50%;
+    background-position: -4px -4px;
+}
+
+.callout-backdrop {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    border: 3px solid rgba(255,255,255,0.05) !important;
+	border: 3px solid rgba(255,255,255,0) !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: rgba(0,0,0,0.2) !important;
+	background-color: rgba(0,0,0,0) !important;
+}
+
+.guild-header ul {
+    transition: transform .15s ease-out;
+}
+
+.guild-header ul a {
+    margin: 0px 0px !important;
+}
+
+.guild-header ul li:hover a {
+    border-radius: 0px !important;
+}
+
+.private-channels .search-result.selected, .private-channels .search-result:hover {
+    background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0)) !important;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0)) !important;
+	background: rgba(0,0,0,0.2) !important;
+}
+
+/* this part fixes a completely insignificant thing, the little magnifying glass on the search box on the PMs page
+.search-bar-clear {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #666a6e;
+	background: rgba(0,0,0,0);
+}
+
+.search-bar-clear:before {
+    background: rgba(0,0,0,0);
+}
+
+.search-bar-clear:after {
+    margin: 18px 0 0 20px;
+}
+ */
+ .search-bar input {
+    background: rgba(0,0,0,0.3);
+}
+.emoji-picker .search-bar input {
+	background: rgba(0,0,0,0);
+}
+
+/* this fixes one singular border */
+#voice-connection {
+	border-top: none !important;
+}
+
+/* Guilds List, cant use this because then guilds without images do not have a colour when you hover over them, 
+.guilds-wrapper .guilds .guild .guild-inner :hover {
+	background-color: rgba(0,0,0,0) !important;
+}
+ */
+
+/* Testing something */
+#friends .friends-empty.section-pending .empty-state-image {
+    background-image: url(https://bunniesmcgee.tk/wumpus.php) !important;
+}
+
+.theme-dark #friends .friends-empty.section-pending .empty-state-image {
+    -webkit-filter: brightness(30%) saturate(3) !important;
+}
+
+.theme-light #friends .friends-empty.section-pending .empty-state-image {
+	-webkit-filter: brightness(100%) !important;
+}
+
+.member-roles .member-role {
+    color: #d4d4d4;
+	background-color: rgba(243,243,243,0.1);
+}
+
+/* Settings Popup */
+
+.user-settings-modal.settings {
+    background: rgba(25,25,25,0.7);
+}
+
+.settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header  {
+	background-color: rgba(0,0,0,0);
+	background: rgba(0,0,0,0);
+}
+
+.avatar-uploader .avatar-uploader-inner {
+	background-size: 124px 124px;
+	background-color: rgba(0,0,0,0);
+    width: 124px;
+    height: 124px;
+    border: 5px solid rgba(255,255,255,0.3);
+}
+
+.user-settings-modal-games .games-table .games-row .item-game .game-input {
+    color: #8c8c8c;
+}
+
+/* Server Settings */
+.settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header {
+    background: rgba(25,25,25,0.7);
+	color: #fff;
+}
+
+.guild-settings-modal-members {
+    background-color: rgba(0,0,0,0);
+}
+.guild-settings-modal-members .guild-settings-modal-list .member .member-inner {
+	-webkit-filter: brightness(400%);
+}
+.guild-settings-modal-members .guild-settings-modal-list .member .bot-tag {
+	-webkit-filter: brightness(25%);
+}
+.guild-settings-modal-members .guild-settings-modal-list .member+.member {
+    border-top: 1px solid rgba(236,238,239,0.1);
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: transparent;
+    border: transparent;
+}
+
+/* General Changes */
+.radio .radio-inner {
+	background: transparent;
+}
+.channel-notification-settings .content label {
+	color: #bbbdbf;
+}
+
+/* Direct Calls */
+.theme-dark .chat .private-channel-call .btn-icon {
+	background: rgba(0,0,0,0) !important;
+}
+
+.theme-dark .chat .private-channel-call .btn-icon:hover {
+	background: rgba(0,0,0,0.3) !important;
+}
