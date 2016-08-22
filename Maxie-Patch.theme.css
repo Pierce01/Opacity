@@ -325,11 +325,11 @@
 /* Settings Popup */
 
 .user-settings-modal.settings {
-    background: rgba(24, 24, 23, 0.34);
+    background: rgba(24, 24, 23, 0);
 }
 
 .settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header  {
-	background: rgba(24, 24, 23, 0.34);
+	background: rgba(24, 24, 23, 0);
 	background: rgba(0,0,0,0);
 }
 
@@ -347,7 +347,7 @@
 
 /* Server Settings */
 .settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header {
-    background: rgba(24, 24, 23, 0.34);
+    background: rgba(24, 24, 23, 0);
     color: #fff;
 }
 
@@ -399,7 +399,8 @@
 /* privacy settings popup */
 
 .form .form-header, .form .form-inner, .form .form-actions {
-    background: rgba(0,0,0,0.4) !important;
+	background-color: transparent;
+	background: rgba(24, 24, 23, 0.75);
 }
 
 .form .control-groups {
@@ -409,8 +410,9 @@
 .channel-textarea-autocomplete-inner {
 	width: auto !important;
 	background: transparent !important;
-	background-color: rgba(0,0,0,0.7) !important;
+	background-color: rgba(25,25,25,0.7) !important;
 	border-color: hsla(0,0%,100%,.2) !important;
+	min-width: 200px;
 }
 .channel-textarea-autocomplete-inner ul li {
 	color: hsla(0,0%,100%,.6) !important;
@@ -482,8 +484,8 @@
 }
 
 #bda-qem button.active {
-	background: rgba(0,0,0,0) !important;
-    background-color: rgba(0,0,0,0) !important;
+	background: rgba(0,0,0,0.2) !important;
+    background-color: rgba(0,0,0,0.2) !important;
 	color: #fff;
 }
 
@@ -494,10 +496,12 @@
 
 /*File Upload*/
 .modal .modal-inner {
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 5px;
+    background-color: rgba(25,25,25,0.7);
+    /*border-radius: 5px;*/
 }
-
+.modal .download-button {
+	padding-left: 10px;
+}
 .upload-modal-inner {
 	border: 2px dashed rgba(0,0,0,0) !important;
 }
@@ -507,7 +511,12 @@
 }
 
 .upload-modal .footer .button {
-    border-radius: 3px !important;	
+    background-color: rgba(255,255,255,0.1);
+}
+
+.upload-modal .footer .button:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0);
 }
 
 .upload-modal .inner .file .icon.image {
@@ -519,18 +528,18 @@
 .form .form-header {
     padding: 0 40px;
     color: #7289da;
-    background: rgba(0,0,0,0.5);
+    background: rgba(25,25,25,0);
     border-radius: 5px 5px 0 0;
     border-bottom: 1px solid rgba(0,0,0,0.5);
 }
 
 .form .form-inner {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0);
     padding: 28px 40px 48px;
 }
 
 .form .form-actions {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0);
     border-top: 1px solid rgba(0,0,0,0.5);
     box-sizing: border-box;
     width: 100%;
@@ -595,9 +604,57 @@
 	background-color: rgba(255,255,255,0.1);
 	width: 80px;
     height: 36px;
+	padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .form .btn-default:hover {
     background-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0);
 }
+
+.form .control-group input[type=email], .form .control-group input[type=number], .form .control-group input[type=password], .form .control-group input[type=text], .form .control-group textarea {
+    background: transparent;
+    color: #f0f0f0;
+}
+
+div.control-group .shortcut-recorder input[type=text] {
+    color: #f0f0f0;
+}
+
+.user-settings-modal .account-warning {
+	background: rgba(49, 28, 28, 0.7);
+}
+
+.bda-slist li:nth-child(odd) {
+	background: rgba(0,0,0,0);
+}
+
+.bda-slist li {
+	background: rgba(0,0,0,0);
+}
+
+.bda-slist .bda-description {
+	color: #f0f0f0;
+}
+
+.form .btn:disabled {
+    background-color: rgba(128,128,128,0.4);
+}
+
+#create-channel-modal .checkbox-group li {
+	color: #f0f0f0;
+}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations.no-integrations {
+	color: #f0f0f0;
+}
+
+.settings-connections-wrapper .authed-app {
+	background: transparent;
+}
+
+.settings-connections-wrapper .authed-app .header .app-name, .settings-connections-wrapper .authed-app .details .header, .settings-connections-wrapper .authed-app .details .header {
+	color: #f0f0f0;
+}
+
