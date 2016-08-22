@@ -520,14 +520,16 @@
 /* More Aids */
 
 .form .btn-default {
+	/*
     padding: 10px 20px;
     padding-top: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
-    background-color: #158652;
+	background-color: #158652;
     color: #ffffff;
     margin-left: 20px;
+	*/
     border-top-color: initial;
     border-top-style: initial;
     border-top-width: 0px;
@@ -545,10 +547,14 @@
     border-image-width: initial;
     border-image-outset: initial;
     border-image-repeat: initial;
-    border-radius: 5px;
+    border-radius: 3px;
+	border-bottom: 2px solid rgba(0,0,0,0);
+	background-color: rgba(255,255,255,0.1);
+	width: 80px;
+    height: 36px;
 }
 
 .form .btn-default:hover {
-    background-color: #1fb771;
-	border-bottom-color: #1fb771;
+    background-color: rgba(255, 255, 255, 0.2);
+	border-bottom-color: rgba(255, 255, 255, 0.2);
 }
