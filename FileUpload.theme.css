@@ -1,0 +1,22 @@
+//META{"name":"dont use by self also","description":"styles the file upload thingy","author":"Bunnies McGee","version":"1.0"}*//
+
+.modal .modal-inner {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.upload-modal-inner {
+	border: 2px dashed rgba(0,0,0,0) !important;
+}
+
+.upload-modal, .upload-modal .footer {
+	background-color: transparent !important;
+}
+
+.upload-modal .footer .button {
+    border-radius: 3px !important;	
+}
+
+.upload-modal .inner .file .icon.image {
+    border: 2px solid rgba(0,0,0,0.4) !important;
+}
