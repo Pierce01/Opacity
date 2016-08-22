@@ -429,6 +429,10 @@
     padding: 10px;
 }
 
+.channel-textarea-autocomplete-inner .command-description {
+	padding-left: 20px;
+}
+
 /*emoji menu */
 
 #bda-qem-favourite-container, #bda-qem-twitch-container, .emoji-picker .sticky-header, .emoji-picker .scroller {
