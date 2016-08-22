@@ -451,6 +451,10 @@
 }
 
 .diversity-selector .popout {
+    background: rgba(0,0,0,0.7);
+    box-shadow: 0 2px 6px 0 transparent;
+    border: 1px solid transparent;
+    border-radius: 3px;
 }
 
 .emoji-picker, #bda-gem, #bda-qem-favourite-container, #bda-qem-twitch-container {
