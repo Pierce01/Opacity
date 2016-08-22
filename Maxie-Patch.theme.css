@@ -278,11 +278,19 @@
     margin: 18px 0 0 20px;
 }
  */
+ .search-bar {
+    box-shadow: 0 1px 0 0 transparent,inset 0 -1px 0 0 transparent;
+}
+ 
  .search-bar input {
     background: rgba(0,0,0,0);
 }
 .emoji-picker .search-bar input {
 	background: rgba(0,0,0,0);
+}
+
+#friends .friends-header {
+    border-bottom: 1px solid transparent !important;
 }
 
 /* this fixes one singular border */
@@ -436,6 +444,13 @@
 
 .emoji-picker .search-bar .search-bar-inner {
     background-color: transparent;
+}
+
+.emoji-picker .dimmer.visible {
+	background-color: transparent;
+}
+
+.diversity-selector .popout {
 }
 
 .emoji-picker, #bda-gem, #bda-qem-favourite-container, #bda-qem-twitch-container {
