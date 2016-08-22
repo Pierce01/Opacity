@@ -420,33 +420,57 @@
 }
 
 /*emoji menu */
-.guild-header.guild-header-open ul {
-    background: rgba(0,0,0,0.7);
+
+#bda-qem-favourite-container, #bda-qem-twitch-container, .emoji-picker .sticky-header, .emoji-picker .scroller {
+	background-color: transparent;
+	background: transparent;
 }
 
-.emoji-picker .scroller {
-    height: 224px;
-    padding: 0 0 0 8px;
-    overflow-x: hidden;
-	background: rgba(0,0,0,0.5) url(http://i.imgur.com/X8zr2OZ.png);
+.emoji-picker {
+    border: 0px solid transparent;
 }
 
-.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark .emoji-picker, .bda-dark .emoji-picker .category {
+.emoji-picker .sticky-header {
+	display: none;
+}
+
+.emoji-picker .search-bar .search-bar-inner {
+    background-color: transparent;
+}
+
+.emoji-picker, #bda-gem, #bda-qem-favourite-container, #bda-qem-twitch-container {
+	background: rgba(0,0,0,0.5) !important;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+#bda-qem {
+	background: rgba(0,0,0,0.5);
     background-color: rgba(0,0,0,0.5);
 }
 
-.bda-dark #bda-qem button.active {
-    background-color: rgba(0,0,0,0.7) url(http://i.imgur.com/X8zr2OZ.png);
-}
-.bda-dark #bda-qem button {
-    background: rgba(0,0,0,0.5);
-    border-left: 1px solid #242424;
-    box-shadow: #424242 1px 0 0 0;
-    color: #FFF;
+#bda-qem button {
+	background: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
+	color: #D6D6D6;
+	border-left: 1px solid transparent;
+	box-shadow: transparent 1px 0 0 0;
 }
 
-.bda-dark #bda-qem button:hover {
-    background-color: rgba(0,0,0,0.3);
+#bda-qem button:hover {
+	background: rgba(0,0,0,0.2) !important;
+    background-color: rgba(0,0,0,0.2) !important;
+	color: #fff;
+}
+
+#bda-qem button.active {
+	background: rgba(0,0,0,0) !important;
+    background-color: rgba(0,0,0,0) !important;
+	color: #fff;
+}
+
+#bda-qem-twitch-container, #bda-qem-favourite-container {
+	width: 344px;
+	height: 326px;
 }
 
 /*File Upload*/
