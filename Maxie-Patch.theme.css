@@ -556,5 +556,5 @@
 
 .form .btn-default:hover {
     background-color: rgba(255, 255, 255, 0.2);
-	border-bottom-color: rgba(255, 255, 255, 0.2);
+	border-bottom-color: rgba(255, 255, 255, 0);
 }
