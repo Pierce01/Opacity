@@ -279,7 +279,7 @@
 }
  */
  .search-bar input {
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0);
 }
 .emoji-picker .search-bar input {
 	background: rgba(0,0,0,0);
@@ -375,8 +375,28 @@
 
 .theme-dark .chat .private-channel-call .btn-icon:hover {
 	background: rgba(0,0,0,0.3) !important;
+	color: #a5afbb;
 }
 
+/* that thing that pops up when you click the channel topic */
+.markdown-modal {
+    background-color: rgba(0,0,0,0.4) !important;
+}
+
+.markdown-modal .markdown-modal-header {
+    padding: 0 20px 0px !important;
+    border-bottom: 1px solid rgba(0,0,0,0) !important;
+}
+
+/* privacy settings popup */
+
+.form .form-header, .form .form-inner, .form .form-actions {
+    background: rgba(0,0,0,0.4) !important;
+}
+
+.form .control-groups {
+	color: #a5afbb;
+}
 /*Auto comp menu */
 .channel-textarea-autocomplete-inner {
 	width: auto !important;
