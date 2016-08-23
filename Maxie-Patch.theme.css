@@ -662,3 +662,16 @@ div.control-group .shortcut-recorder input[type=text] {
 	color: #f0f0f0;
 }
 
+.friends-table .messages .divider span, .messages-wrapper .messages .divider span {
+    background-color: rgba(54,57,62,0.3);
+}
+
+.highlight, .theme-dark .highlight, .theme-light .highlight {
+	background: transparent !important;
+	background-color: transparent !important;
+}
+
+.highlight:hover, .theme-dark .highlight:hover, .theme-light .highlight:hover {
+	background: transparent !important;
+	background-color: transparent !important;
+}
