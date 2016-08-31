@@ -7,8 +7,7 @@ transparent user blocks http://i.imgur.com/rlWWYDb.png
 Transparent everything
 
 #To-Do
-Fix these little bugs i ended up makeing while adding/ fixing the settings menu: http://i.imgur.com/nlu0Ghc.png (Bun one job)
-emoji menu is still borked. Fixing now
+uh.. fix some buttons... then.. we're done?
 
 
 #Note
