@@ -3,7 +3,7 @@ This adds in things that the amazing theme that Bunnies McGee#0972 made doesnt h
 Demo Video: https://a.fluntcaps.me/arwqiz.webm
 
 Adds in Better code blocks.
-transparent user blocks http://i.imgur.com/rlWWYDb.png
+transparent user blocks http://i.imgur.com/AqjfqWQ.png
 Transparent everything
 
 #To-Do
