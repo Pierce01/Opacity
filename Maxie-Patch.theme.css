@@ -132,6 +132,13 @@
     border-top: none;
 }
 
+.quick-message {
+    border: 1px solid rgba(0,0,0,0) !important;
+    background: transparent !important;
+	border-radius: 0px !important;
+	color: #C3C3C3 !important;
+}
+
 /* Trying to solve issue mentioned in readme here, solution was to move popups to visual centre, then add a scroller for when a user has many many roles*/
 .popout.popout-right.no-arrow {
     right: 50vw !important;
@@ -148,13 +155,17 @@
 	padding-right: 10px;
 }
 
+.popout.popout-right.no-arrow .user-popout .body .section .notes {
+	overflow: initial;
+}
+
 .popout.popout-right.no-arrow .user-popout .body .section .section notes {
     overflow: initial;
 	overflow-x: initial;
 }
 
 .popout.popout-right.no-arrow .user-popout .body .section::-webkit-scrollbar {
-    width: 14px;
+    width: 10px;
 }
 
 .popout.popout-right.no-arrow .user-popout .body .section::-webkit-scrollbar-thumb, .popout.popout-right.no-arrow .user-popout .body .section::-webkit-scrollbar-thumb {
@@ -176,7 +187,7 @@
 }
 
 .popout.popout-left.no-arrow .user-popout .body .section::-webkit-scrollbar {
-    width: 14px;
+    width: 10px;
 }
 
 .popout.popout-left.no-arrow .user-popout .body .section::-webkit-scrollbar-thumb, .popout.popout-left.no-arrow .user-popout .body .section::-webkit-scrollbar-thumb {
@@ -193,6 +204,10 @@
 
 .user-popout .body .notes textarea:focus {
 	background: rgba(0,0,0,0.2) !important;
+}
+
+.note textarea:focus {
+    background: transparent !important;
 }
 
 .user-popout, .popout header {
@@ -292,6 +307,19 @@
 #friends .friends-header {
     border-bottom: 1px solid transparent !important;
 }
+
+#friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) {
+    background-color: rgba(0,0,0,0.2);
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action {
+	background-color: transparent;
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
 
 /* this fixes one singular border */
 #voice-connection {
@@ -683,3 +711,27 @@ div.control-group .shortcut-recorder input[type=text] {
 
 #user-profile-modal .tab-bar-container {
     background-color: rgba(0,0,0,0);
+}
+
+/* THE CONTEXT MENU I KEEP MESSING THIS UP */
+.context-menu {
+	background: rgba(0,0,0,0.5) !important;
+	border-radius: 0px;
+}
+
+.context-menu .item:hover {
+	background: rgba(0,0,0,0.2) !important;
+}
+
+.context-menu .item-subMenu {
+	background: url(/assets/1988164a7c55346d32117b151f4e319d.svg) 155px 50% no-repeat transparent !important;
+}
+
+.context-menu .item-subMenu:hover {
+	background: rgba(0,0,0,0.2) !important;
+}
+
+.context-menu .context-menu, .context-menu {
+	box-shadow: 0 1px 4px transparent !important;
+	border: 1px solid transparent !important;
+}
