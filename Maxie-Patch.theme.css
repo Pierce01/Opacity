@@ -675,3 +675,11 @@ div.control-group .shortcut-recorder input[type=text] {
 	background: transparent !important;
 	background-color: transparent !important;
 }
+
+
+#user-profile-modal .scroller {
+    background: rgba(0,0,0,0)!important;
+}
+
+#user-profile-modal .tab-bar-container {
+    background-color: rgba(0,0,0,0);
