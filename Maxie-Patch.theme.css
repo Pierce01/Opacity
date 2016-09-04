@@ -705,7 +705,11 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 
 .friends-table .messages .divider span, .messages-wrapper .messages .divider span {
-    background-color: rgba(54,57,62,0.3);
+    background-color: rgba(54,57,62,0.3) !important;
+}
+
+.chat .divider:before {
+	width: 0px !important;
 }
 
 .highlight, .theme-dark .highlight, .theme-light .highlight {
@@ -755,8 +759,17 @@ div.control-group .shortcut-recorder input[type=text] {
     background: rgba(0,0,0,0.5);
 }
 
+.upload-modal .footer .button {
+	margin-right: 5px;
+}
+
+.upload-modal .footer .button-primary {
+    color: #576cb7;
+	transition: background-color .2s ease;
+}
+
 .upload-modal .footer .button:hover {
-	text-decoration: blink;
+	text-decoration: none;
 }
 
 .form .btn+.btn {
@@ -789,4 +802,8 @@ div.control-group .shortcut-recorder input[type=text] {
 
 #friends .friends-table .friends-row+.friends-row {
 	border-top: none !important;
+}
+
+.guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations p {
+	color: #E6E6E6 !important;
 }
