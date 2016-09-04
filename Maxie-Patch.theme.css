@@ -648,7 +648,6 @@
     border-radius: 3px;
 	border-bottom: 2px solid rgba(0,0,0,0);
 	background-color: rgba(255,255,255,0.1);
-	width: 80px;
     height: 36px;
 	padding-top: 10px;
     padding-bottom: 10px;
@@ -813,10 +812,10 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 
 .settings .settings-actions{
-    border: 0;
+    border: 0 !important;
 }
 
-#voice-connection-popout .popout header, #voice-connection-popout section {
+#voice-connection-popout header, #voice-connection-popout section, #autocomplete-popout header, #autocomplete-popout section {
 	background-color: #35393e !important;
 }
 
@@ -826,4 +825,29 @@ div.control-group .shortcut-recorder input[type=text] {
 
 #voice-connection-popout .popout.popout-top section:after, #voice-connection-popout .popout.popout-top-right section:after {
 	border-top-color: #35393e !important;
+}
+
+.popout.popout-bottom header:before, .popout.popout-bottom-right header:before {
+    border-bottom-color: #35393e !important;
+}
+
+#autocomplete-popout .row.selected, #autocomplete-popout .row:hover {
+    background: rgba(0,0,0,0.1) !important;
+}
+
+#autocomplete-popout .row.selected a, #autocomplete-popout .row:hover a {
+	color: #747f8d !important;
+}
+
+#autocomplete-popout .empty:hover {
+	background-color: transparent !important;
+}
+
+.instant-invites .instant-invites-list .instant-invite .show-channel .member {
+	color: #4f545c !important;
+}
+
+.markdown-modal .markdown-modal-footer {
+	border-top: none !important;
+	background-color: transparent !important;
 }
