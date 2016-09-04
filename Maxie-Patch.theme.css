@@ -815,3 +815,15 @@ div.control-group .shortcut-recorder input[type=text] {
 .settings .settings-actions{
     border: 0;
 }
+
+#voice-connection-popout .popout header, #voice-connection-popout section {
+	background-color: #35393e !important;
+}
+
+#voice-connection-popout section {
+	border-radius: 0 0 0 0 !important;
+}
+
+#voice-connection-popout .popout.popout-top section:after, #voice-connection-popout .popout.popout-top-right section:after {
+	border-top-color: #35393e !important;
+}
