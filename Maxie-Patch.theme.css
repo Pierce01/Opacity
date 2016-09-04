@@ -811,3 +811,7 @@ div.control-group .shortcut-recorder input[type=text] {
 .streamer-mode-enabled {
 	background: rgba(24, 24, 23, 0);
 }
+
+.settings .settings-actions{
+    border: 0;
+}
