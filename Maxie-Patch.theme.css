@@ -313,8 +313,16 @@
     background-color: rgba(0,0,0,0.2) !important;
 }
 
+.friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+	background-color: #697ec4 !important;
+}
+
 #friends .friends-table .friends-row .friends-column-actions .friends-action {
-	background-color: transparent;
+	background-color: transparent !important;
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover {
+	background-color: #f04747 !important;
 }
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
@@ -540,7 +548,7 @@
 .modal .download-button {
 	padding-left: 10px;
 }
-.upload-modal-inner {
+.upload-modal .inner {
 	border: 2px dashed rgba(0,0,0,0) !important;
 }
 
@@ -742,7 +750,43 @@ div.control-group .shortcut-recorder input[type=text] {
 	border: 1px solid transparent !important;
 }
 
-.guild-header.guild-header-open ul {
+.guild-header.guild-header-open ul, .guild-header ul {
 	direction: rtl;
     background: rgba(0,0,0,0.5);
+}
+
+.upload-modal .footer .button:hover {
+	text-decoration: blink;
+}
+
+.form .btn+.btn {
+	margin-left: 5px;
+}
+
+.channel-notification-settings .content {
+	height: 50px;
+}
+
+.channel-notification-settings {
+	border-bottom: none;
+}
+
+.theme-dark .add-friend-input-wrapper {
+	border-color: rgba(0,0,0,0.1) !important;
+}
+
+.user-settings-modal-games .games-table .games-row .item-game .last-played {
+	color: #777d86;
+}
+
+.mfa-modal .mfa-step {
+	border-bottom: none !important;
+}
+
+#friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header {
+    border-bottom: 1px solid transparent;
+}
+
+#friends .friends-table .friends-row+.friends-row {
+	border-top: none !important;
 }
