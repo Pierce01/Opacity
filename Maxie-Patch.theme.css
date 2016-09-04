@@ -851,3 +851,11 @@ div.control-group .shortcut-recorder input[type=text] {
 	border-top: none !important;
 	background-color: transparent !important;
 }
+
+#voice-debug-modal #users-section .user-list li.selected {
+	background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+}
+
+#voice-debug-modal #users-section .user-list li:hover {
+	background: linear-gradient(to right,rgba(24, 24, 23, 0),rgba(24, 24, 23, 0));
+}
