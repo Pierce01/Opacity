@@ -3,6 +3,11 @@ This is a work in progress theme designed with transparency in mind
 
 Demo Video: https://a.fluntcaps.me/arwqiz.webm (isnt updated, looking into)
 
+##Download
+- Main theme: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/Bunny.plugin.js
+- Maxie Patch: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/Maxie-Patch.theme.css
+- Image Plugin: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/Bunny.plugin.js
+
 ## How to set up
 
 1. Place both css files into theme folder
