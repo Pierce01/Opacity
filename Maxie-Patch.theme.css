@@ -44,7 +44,7 @@
 }
 
 #user-profile-modal {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0);
 }
 #user-profile-modal .header, #user-profile-modal .sub-header, #user-profile-modal .tab-bar, #user-profile-modal .scroller {
     background-color: rgba(0,0,0,0) !important;
