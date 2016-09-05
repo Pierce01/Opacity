@@ -8,8 +8,7 @@
 ##In order to have a single image follow these steps
 1. If not already, disable the plugin (and restart discord to remove the "Prev" and "Next" buttons)
 2. Go to the BetterDiscord settings menu, and open the custom css tab
-3. Paste this code in
-```
+3. Paste this code in ```
 .app {
     background-image: url(https://somewebsite.com/yourfile.png);
 }
