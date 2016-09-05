@@ -65,8 +65,10 @@ back.prototype.convert = function () {
 				$(newDiv).fadeOut(1000);
 				setTimeout(function() {
 					newDiv.style.backgroundImage = "url('"+ url + array[index] + "')";
-				}, 800);
-				$(newDiv).fadeIn(1000);
+				}, 1000);
+				setTimeout(function() {
+					$(newDiv).fadeIn(1000);
+				}, 1300);
 				console.log("Current background image: Index = " + index + ", URL = " + url + array[index]);
 			}
 			
@@ -89,8 +91,10 @@ back.prototype.convert = function () {
 				setTimeout(function() {
 					newDiv.style.backgroundImage = "url('"+ url + array[index] + "')";
 					console.log("Current background image: Index = " + index + ", URL = " + url + array[index]);
-				}, 800);
-				$(newDiv).fadeIn(1000);
+				}, 1000);
+				setTimeout(function() {
+					$(newDiv).fadeIn(1000);
+				}, 1300);
 			});
 			
 			$(prev).on("click", function() {
@@ -111,8 +115,10 @@ back.prototype.convert = function () {
 				setTimeout(function() {
 					newDiv.style.backgroundImage = "url('"+ url + array[index] + "')";
 					console.log("Current background image: Index = " + index + ", URL = " + url + array[index]);
-				}, 800);
-				$(newDiv).fadeIn(1000);
+				}, 1000);
+				setTimeout(function() {
+					$(newDiv).fadeIn(1000);
+				}, 1300);
 			});
 		});
 	});
@@ -136,7 +142,7 @@ back.prototype.getDescription = function () {
     return "Must use Bunny theme in conjunction, allows for changing of background image using buttons.";
 };
 back.prototype.getVersion = function () {
-    return "1.1";
+    return "1.2";
 };
 back.prototype.getAuthor = function () {
     return "Bunnies McGee";
