@@ -363,7 +363,7 @@
     color: #d4d4d4;
 	background-color: rgba(243,243,243,0.1);
 	margin: 2px;
-	-webkit-filter: saturate(6);
+	/*-webkit-filter: saturate(6); tried to fix issue with role colours not showing on lists, this turned out to be a bad idea*/
 }
 
 /* Settings Popup */
