@@ -1,4 +1,4 @@
-//META{"name":"Maxie-Patch","description":"Adds things to Bun's (still unnamed) theme, more like a patch in a way..","author":"Maxie and Bun :3","version":"1.0"}*//
+//META{"name":"Maxie-Patch","description":"Adds things to Bun's (still unnamed) theme, more like a patch in a way","author":"Maxie and Bun :3","version":"1.1"}*//
 
 .message-group .comment .markup pre code {
     background: rgba(0,0,0,0) !important;
@@ -148,6 +148,14 @@
     margin: -225px -120px 0 0px;
 }
 
+.popout.popout-left.no-arrow {
+    right: 50vw !important;
+    top: 50vh !important;
+    left: auto !important;
+    transform: translateX(0px) translateY(0px) translateZ(0px) !important;
+    margin: -225px -120px 0 0px;
+}
+
 .popout.popout-right.no-arrow .user-popout .body .section {
     max-height: 250px;
     overflow: scroll;
@@ -228,9 +236,11 @@
 	color: #d4d4d4 !important;
 }
 
+/*
 .popout.popout-left.no-arrow {
     transform: translateX(-106.1%) translateY(0%) translateZ(0px) !important;
 }
+*/
 
 .user-popout .avatar-wrapper .avatar-popout {
     border: 4px solid rgba(0, 0, 0, 0.3);
