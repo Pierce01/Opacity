@@ -870,3 +870,35 @@ div.control-group .shortcut-recorder input[type=text] {
 .create-guild-container .form-actions {
 	background-color: #35393e;
 }
+
+#previousButton {
+    color: rgba(255,255,255,0.3);
+    background-color: rgba(0,0,0,0) !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    font-size: 10px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    bottom: 2px;
+    left: 230px;
+}
+
+#nextButton {
+    color: rgba(255,255,255,0.3);
+    background-color: rgba(0,0,0,0) !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    font-size: 10px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    bottom: 2px;
+    left: 260px;
+}
