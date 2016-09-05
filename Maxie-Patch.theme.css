@@ -1,4 +1,4 @@
-//META{"name":"Maxie-Patch","description":"0w0 adds things to buns theme","author":"Bunnie and Maxie","version":"0.9"}*//
+//META{"name":"Maxie-Patch","description":"Adds things to Bun's (still unnamed) theme, more like a patch in a way..","author":"Maxie and Bun :3","version":"1.0"}*//
 
 .message-group .comment .markup pre code {
     background: rgba(0,0,0,0) !important;
@@ -44,7 +44,7 @@
 }
 
 #user-profile-modal {
-    background-color: rgba(25,25,25,0.5);
+    background-color: rgba(0,0,0,0.5);
 }
 #user-profile-modal .header, #user-profile-modal .sub-header, #user-profile-modal .tab-bar, #user-profile-modal .scroller {
     background-color: rgba(0,0,0,0) !important;
@@ -125,7 +125,7 @@
 }
 
 .popout.popout-right.no-arrow .user-popout {
-	background: rgba(0,0,0,0.3) !important;
+	background: rgba(0,0,0,0.5) !important;
 }
 
 .user-popout .header.streaming .live-on-twitch {
@@ -542,7 +542,7 @@
 
 /*File Upload*/
 .modal .modal-inner {
-    background-color: rgba(25,25,25,0.7);
+    background-color: rgba(0,0,0,0.7);
     /*border-radius: 5px;*/
 }
 .modal .download-button {
@@ -618,40 +618,15 @@
 /* More Aids */
 
 .form .btn-default {
-	/*
-    padding: 10px 20px;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-	background-color: #158652;
-    color: #ffffff;
-    margin-left: 20px;
-	*/
-    border-top-color: initial;
-    border-top-style: initial;
     border-top-width: 0px;
-    border-right-color: initial;
-    border-right-style: initial;
     border-right-width: 0px;
-    border-bottom-color: initial;
-    border-bottom-style: initial;
     border-bottom-width: 0px;
-    border-left-color: initial;
-    border-left-style: initial;
     border-left-width: 0px;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
     border-radius: 3px;
 	border-bottom: 2px solid rgba(0,0,0,0);
 	background-color: rgba(255,255,255,0.1);
     height: 36px;
-	padding-top: 10px;
-    padding-bottom: 10px;
-    min-width: 70px;
+	padding: 10px;
 }
 
 .form .btn-default:hover {
