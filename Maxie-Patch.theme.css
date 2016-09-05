@@ -860,3 +860,13 @@ div.control-group .shortcut-recorder input[type=text] {
 #voice-debug-modal #users-section .user-list li:hover {
 	background: linear-gradient(to right,rgba(24, 24, 23, 0),rgba(24, 24, 23, 0));
 }
+
+.create-guild-container .create-or-join .form-inner {
+	background-color: #35393e;
+}
+.create-guild-container .form .form-inner {
+	background-color: #35393e;
+}
+.create-guild-container .form-actions {
+	background-color: #35393e;
+}
