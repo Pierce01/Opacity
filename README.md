@@ -30,3 +30,10 @@ Please note that due to restrictions in the https protocol (Do not ask about a f
 Lastly, Save your changes and the image should be set
 
 ###Tutorial for custom image rotation coming soon™
+It's either going to be annoying af to set up, or easy, but I think it's going to be the former
+
+
+```
+Lots of love
+Maxie and Bunnies McGee <3
+```
