@@ -362,6 +362,8 @@
 .member-roles .member-role {
     color: #d4d4d4;
 	background-color: rgba(243,243,243,0.1);
+	margin: 2px;
+	-webkit-filter: saturate(6);
 }
 
 /* Settings Popup */
@@ -877,3 +879,17 @@ div.control-group .shortcut-recorder input[type=text] {
     bottom: 2px;
     left: 260px;
 }
+
+/*
+button.btn.btn-settings {
+    opacity: 0.3;
+}
+
+button.btn.btn-settings:hover {
+    opacity: 0.6;
+}
+
+.account .btn-settings:after {
+	opacity: 0.2 !important;
+}
+*/
