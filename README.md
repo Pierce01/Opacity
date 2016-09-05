@@ -15,10 +15,9 @@
 }
 ```
 
-4. Please note that due to restrictions in the https protocol (Do not ask about a fix for this as there is none), any image you use must be on a secure server, what this means is the url must start with https, one useful way to do this is by using an image hosting site such as [fluntcaps](https://www.fluntcaps.me) or [pomf.cat](https://pomf.cat/)
+Please note that due to restrictions in the https protocol (Do not ask about a fix for this as there is none), any image you use must be on a secure server, what this means is the url must start with https, one useful way to do this is by using an image hosting site such as [fluntcaps](https://www.fluntcaps.me) or [pomf.cat](https://pomf.cat/)
 
-
-5. Save your changes and the image should be set
+Lastly, Save your changes and the image should be set
 
 ##Tutorial for custom image rotation coming soon™
 
