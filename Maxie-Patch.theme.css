@@ -731,7 +731,7 @@ div.control-group .shortcut-recorder input[type=text] {
 
 .guild-header.guild-header-open ul, .guild-header ul {
 	direction: rtl;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.2);
 }
 
 .upload-modal .footer .button {
