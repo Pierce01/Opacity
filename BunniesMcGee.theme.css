@@ -1,4 +1,4 @@
-//META{"name":"Bunny_Theme","description":"Bunny Plugin compatible theme","author":"Bunnies McGee","version":"1.0"}*//
+//META{"name":"Bunny_Theme","description":"Yet unnamed theme","author":"Bunnies McGee","version":"1.1"}*//
 .app {
     background-size: cover;
 	background-color: #8F99A8;
@@ -146,6 +146,10 @@
 	background: rgba(0,0,0,0) !important;
 }
 
+.theme-light .account .btn-group, .theme-light #voice-connection .btn-group  {
+    border: 1px solid #D1D1D1 !important;
+}
+
 .theme-light .account .btn-deafen, .theme-light .account .btn-mute, .theme-light #voice-connection .btn-info  {
 	border-right: 1px solid #D1D1D1;
 }
@@ -211,6 +215,10 @@
 	background: rgba(0,0,0,0.2) !important;
 }
 
+.theme-light .message-group {
+	border-bottom: 1px solid #828282 !important;
+}
+
 .theme-light .message-group .comment .markup code.inline {
 	background: #2e3136;
 }
@@ -240,6 +248,7 @@
 .theme-light .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-light .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
 	background-color: rgba(255,255,255,0.2) !important;
 }
+
 
 .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
 	border-color: rgba(0,0,0,0) !important;
@@ -324,12 +333,6 @@
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
-.channel-members-loading {
-	transform:translate(150px);
-	z-index: 3;
-	background: rgba(0,0,0,0.7);
-}
-
 .theme-dark .channel-members:hover {
     animation: member 300ms ease;
     transform:translate(0px);
@@ -352,15 +355,13 @@
     overflow-x: hidden;
 }
 .guild-header ul {
-	transform: translate3d(0,-200%,0) !important;
-    transition: transform .2s ease-out;
-    box-shadow: 0 0px 0 rgba(0,0,0,0),inset 0 0px 0 rgba(0,0,0,0);
+	transform: translate3d(0,-150%,0) !important;
 }
 
 .guild-header.guild-header-open ul {
     -webkit-transform: translateZ(0) !important;
     transform: translateZ(0) !important;
-	border-radius: 0px;
+	border-radius: 5px;
 }
 
 .theme-light .guild-header ul a {
@@ -404,6 +405,8 @@
 	background-color: rgba(0,0,0,0) !important;
 	box-shadow: 0 1px 0 rgba(0,0,0,0),inset 0 -1px 0 rgba(0,0,0,0) !important;
 }
+
+
 
 .channel-members .member .member-activity,
 .channel-members .member .member-username-inner {
@@ -462,7 +465,6 @@
     transform:scale(1);
     padding:0px 0px 0px 30px;
 }
-
 .channel-members .avatar-small{
     transform:scale(1);
 }
@@ -472,10 +474,6 @@
 .chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{
     margin-right:-145px;
     z-index:1
-}
-
-.chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
-	margin-right:0px !important;
 }
 
 .chat .flex-vertical .flex-spacer .private >.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{
