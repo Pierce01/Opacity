@@ -903,3 +903,29 @@ button.btn.btn-settings:hover {
 	opacity: 0.2 !important;
 }
 */
+
+.guilds-wrapper,
+.guilds-wrapper .scroller-wrap {
+    width: 80px;
+}
+
+.guilds-wrapper .scroller-wrap .scroller {
+    overflow: hidden;
+}
+
+.guilds-wrapper .scroller-wrap .scroller:hover {
+    overflow-y: scroll;
+}
+
+.guilds-wrapper .scroller-wrap .scroller::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0,.25);
+    border: 4px solid transparent;
+    border-radius: 10px;
+}
+
+.guilds-wrapper .scroller-wrap .scroller::-webkit-scrollbar-track-piece{
+    background-color: transparent;
+    border: 0px;
+    border-radius: 0px;
+}
+/*I heard you like scroll bars */
