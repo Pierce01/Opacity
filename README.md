@@ -32,7 +32,9 @@ Lastly, Save your changes and the image should be set
 
 ###Tutorial for custom image rotation ~~coming soon™~~
 ~~It's either going to be annoying af to set up, or easy, but I think it's going to be the former~~
+
 With a lot of help from @Razzile, I have been able to rewrite the plugin so that it now supports loading local images instead of pulling from a server, to do this follow these steps.
+
 1. Create a folder called "img", without quotes, in the plugin folder for better discord.
 2. Place all images you want loaded in that folder (ensure only static images are in the folder, gifs not tested)
 3. Enable the local version of the plugin (and disable or remove the server image plugin)
