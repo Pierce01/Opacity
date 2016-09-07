@@ -915,17 +915,26 @@ button.btn.btn-settings:hover {
 
 .guilds-wrapper .scroller-wrap .scroller:hover {
     overflow-y: scroll;
+	overflow-x: hidden;
+    /*direction:rtl;*/
 }
 
 .guilds-wrapper .scroller-wrap .scroller::-webkit-scrollbar-thumb{
-    background-color: rgba(0,0,0,.25);
+    background-color: rgba(0,0,0,0.3);
     border: 4px solid transparent;
     border-radius: 10px;
+	/*position: fixed;*/
 }
 
 .guilds-wrapper .scroller-wrap .scroller::-webkit-scrollbar-track-piece{
     background-color: transparent;
     border: 0px;
     border-radius: 0px;
+	position: fixed;
 }
 /*I heard you like scroll bars */
+
+
+.chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
+	margin-right: 0px !important
+}
