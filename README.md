@@ -6,7 +6,8 @@ Demo Video: https://a.fluntcaps.me/arwqiz.webm (isnt updated, looking into)
 ##Download
 - Main theme: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/BunniesMcGee.theme.css
 - Maxie Patch: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/Maxie-Patch.theme.css
-- Image Plugin: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/Bunny.plugin.js
+- Server Image Plugin: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/Bunny.plugin.js
+- Local Image Plugin: 
 
 ## How to set up
 
@@ -29,9 +30,13 @@ Please note that due to restrictions in the https protocol (Do not ask about a f
 
 Lastly, Save your changes and the image should be set
 
-###Tutorial for custom image rotation coming soon™
-It's either going to be annoying af to set up, or easy, but I think it's going to be the former
-
+###Tutorial for custom image rotation ~~coming soon™~~
+~~It's either going to be annoying af to set up, or easy, but I think it's going to be the former~~
+With a lot of help from @Razzile, I have been able to rewrite the plugin so that it now supports loading local images instead of pulling from a server, to do this follow these steps.
+1. Create a folder called "img", without quotes, in the plugin folder for better discord.
+2. Place all images you want loaded in that folder (ensure only static images are in the folder, gifs not tested)
+3. Enable the local version of the plugin (and disable or remove the server image plugin)
+4. Restart discord to apply changes, either by pressing ctrl+r or closing on the taskbar and re-opening
 
 ```
 Lots of love

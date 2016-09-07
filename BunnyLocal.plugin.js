@@ -1,5 +1,5 @@
-//META{"name":"back"}*//
-var back = function () {};
+//META{"name":"imageback"}*//
+var imageback = function () {};
 var flex = document.getElementsByClassName("flex-horizontal flex-spacer");
 var apps = document.getElementsByClassName("app");
 var newDiv = document.createElement("div");
@@ -33,7 +33,7 @@ var setBackground = function(number) {
 	//console.log("Current background image: Index = " + index + ", URL = " + url + array[index]);
 }
 
-back.prototype.convert = function () {
+imageback.prototype.convert = function () {
 	var elementExists = document.getElementById("bgImgContainer");
 	//$(function(){
         //$.get('https://bunniesmcgee.tk/res/22 07 2016 v1.txt', function(data){
@@ -158,26 +158,26 @@ back.prototype.convert = function () {
 	//});
 };
 
-back.prototype.start = function () {
+imageback.prototype.start = function () {
     this.convert();
 };
 
-back.prototype.load = function () {};
-back.prototype.unload = function () {};
-back.prototype.stop = function () {};
-back.prototype.getSettingsPanel = function () {
+imageback.prototype.load = function () {};
+imageback.prototype.unload = function () {};
+imageback.prototype.stop = function () {};
+imageback.prototype.getSettingsPanel = function () {
     return "";
 };
 
-back.prototype.getName = function () {
+imageback.prototype.getName = function () {
     return "Bunny Plugin";
 };
-back.prototype.getDescription = function () {
+imageback.prototype.getDescription = function () {
     return "Must use Bunny theme in conjunction, allows for changing of background image using buttons.";
 };
-back.prototype.getVersion = function () {
+imageback.prototype.getVersion = function () {
     return "1.2";
 };
-back.prototype.getAuthor = function () {
+imageback.prototype.getAuthor = function () {
     return "Bunnies McGee";
 };
