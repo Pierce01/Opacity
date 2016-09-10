@@ -10,6 +10,7 @@ var array = [];
 var dontstart = false;
 var index = 1;
 var incooldown = false;
+var fs = require('fs');
 var setBackground = function(number) {
 	if (number == null) {
 		console.log("Error: No number entered");
