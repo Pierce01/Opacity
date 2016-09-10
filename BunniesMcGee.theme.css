@@ -354,9 +354,11 @@
 .app {
     overflow-x: hidden;
 }
+/*
 .guild-header ul {
 	transform: translate3d(0,-150%,0) !important;
 }
+*/
 
 .guild-header.guild-header-open ul {
     -webkit-transform: translateZ(0) !important;

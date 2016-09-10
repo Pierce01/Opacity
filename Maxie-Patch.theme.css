@@ -271,8 +271,9 @@
 }
 
 .guild-header ul {
-    transition: transform .15s ease-out;
+    /*transition: transform .15s ease-out;*/
 }
+
 
 .guild-header ul a {
     margin: 0px 0px !important;
@@ -743,7 +744,11 @@ div.control-group .shortcut-recorder input[type=text] {
 
 .guild-header.guild-header-open ul, .guild-header ul {
 	direction: rtl;
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.6);
+}
+
+.guild-header ul.treatment-1 li:hover {
+    background-color: rgba(0,0,0,0.3);
 }
 
 .upload-modal .footer .button {
@@ -937,4 +942,33 @@ button.btn.btn-settings:hover {
 
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
 	margin-right: 0px !important
+}
+
+.channel-notices .channel-notice.invite {
+    background: url(/assets/bf625d222187f542b9d7179109422e2c.svg) center 20px no-repeat transparent;
+}
+
+.guild-header ul.treatment-1 {
+		background:
+}
+
+.channel-notices .channel-notice .message .btn {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.channel-notices .channel-notice .message .btn:hover {
+    background-color: rgba(10,10,10,0.7);
+}
+
+.message-group.is-local-bot-message {
+	background-image: none !important;
+	box-shadow: none !important;
+}
+
+.message-group:not(.has-divider) {
+	border-bottom-color: transparent !important;
+}
+
+.notice.notice-streamer-mode {
+    background-color: rgba(53, 32, 88, 0.7) !important;
 }
