@@ -7,14 +7,14 @@ Demo Video: https://a.fluntcaps.me/arwqiz.webm (isnt updated, looking into)
 - Main theme: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/BunniesMcGee.theme.css
 - Maxie Patch: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/Maxie-Patch.theme.css
 - Server Image Plugin: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/Bunny.plugin.js
-- Local Image Plugin: 
+- Local Image Plugin: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/BunnyLocal.plugin.js
 
 ## How to set up
 
 1. Place both css files into theme folder
-2. Place plugin(s) in plugin folder
-3. Enable Both css and plugins
-4. Profit
+2. Place plugin of choice (or both) in plugin folder
+3. Enable Both css and plugin of choice
+4. Profit!
 
 ###In order to have a single image follow these steps
 1. If not already, disable the plugin (and restart discord to remove the "Prev" and "Next" buttons)
@@ -39,6 +39,8 @@ With a lot of help from @Razzile, I have been able to rewrite the plugin so that
 2. Place all images you want loaded in that folder (ensure only static images are in the folder, gifs not tested)
 3. Enable the local version of the plugin (and disable or remove the server image plugin)
 4. Restart discord to apply changes, either by pressing ctrl+r or closing on the taskbar and re-opening
+
+WARNING: The local plugin can cause high memory usage by discord, (e.g. 510 images totalling ~340mb caused discord to use ~640mb, rather than the ~20mb it normally uses), please use common sense when selecting images, and do not try to use thousands of high resolution images, it will probably cause crashes and instability.
 
 ```
 Lots of love
