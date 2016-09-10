@@ -949,7 +949,12 @@ button.btn.btn-settings:hover {
 }
 
 .guild-header ul.treatment-1 {
-	background: transparent;
+	background: rgba(0,0,0,0.6);
+	box-shadow: none;
+}
+
+.guild-header .guild-header-open .treatment-1 .guild-header ul.treatment-1 {
+	background: rgba(0,0,0,0.6);
 }
 
 .channel-notices .channel-notice .message .btn {
@@ -975,4 +980,24 @@ button.btn.btn-settings:hover {
 
 .guild-header ul.treatment-1 .line {
     border-bottom: 1px solid rgba(256,256,256,0.3);
+}
+
+.guild-header .toggle-header-button.open {
+	transform: rotate3d(0,0,1,-270deg);
+}
+
+.instant-invite-modal, #instant-invite-modal .form-actions, #instant-invite-modal-advanced .form-actions {
+	background: transparent;
+}
+
+#instant-invite-modal .form-actions, .form .control-groups+.control-group, .form .control-groups+.control-groups {
+	color: #E3E3E3;
+}
+
+.guild-header ul.treatment-1 li:hover a {
+	color: #99aab5;
+}
+
+.guild-header ul li:hover a {
+	background-color: transparent;
 }
