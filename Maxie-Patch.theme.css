@@ -949,7 +949,7 @@ button.btn.btn-settings:hover {
 }
 
 .guild-header ul.treatment-1 {
-		background:
+	background: transparent;
 }
 
 .channel-notices .channel-notice .message .btn {
@@ -971,4 +971,8 @@ button.btn.btn-settings:hover {
 
 .notice.notice-streamer-mode {
     background-color: rgba(53, 32, 88, 0.7) !important;
+}
+
+.guild-header ul.treatment-1 .line {
+    border-bottom: 1px solid rgba(256,256,256,0.3);
 }
