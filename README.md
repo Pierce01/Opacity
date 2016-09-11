@@ -1,7 +1,7 @@
 #The currently unnamed theme by Bunnies McGee#0972 and Maxie#2116
 This is a work in progress theme designed with transparency in mind  
 
-Demo Video: https://a.fluntcaps.me/arwqiz.webm (isnt updated, looking into)
+Demo Video: http://a.pomf.cat/yuscgt.gif
 
 ##Download
 - Main theme: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/BunniesMcGee.theme.css
