@@ -1001,3 +1001,36 @@ button.btn.btn-settings:hover {
 .guild-header ul li:hover a {
 	background-color: transparent;
 }
+
+#bd-customcss-attach-controls, #bd-customcss-detach-controls {
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: inset 0 1px 0 0 var(--main-color);
+    border: none;
+}
+
+.CodeMirror-scroll {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+.CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.CodeMirror-scroll {
+    overflow: scroll!important;
+    margin-bottom: -30px;
+    margin-right: -30px;
+    padding-bottom: 30px;
+    height: 100%;
+    outline: 0;
+    position: relative;
+}
+
+.settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header {
+    background: rgba(24, 24, 23, 0);
+    background: rgba(0,0,0,0);
+}
+
+.CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
+    box-sizing: content-box;
+	background-color: rgba(0, 0, 0, 0.3) !important;
+}
