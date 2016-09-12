@@ -1066,7 +1066,7 @@ button.btn.btn-settings:hover {
 
 .CodeMirror-hscrollbar {
 	height: 17px;
-    width: calc(100% - 51px);
+    width: calc(100% - 47px);
 }
 
 .CodeMirror-vscrollbar {
@@ -1081,18 +1081,6 @@ button.btn.btn-settings:hover {
 .CodeMirror-cursor {
     border-left: 1px solid #fff;
 }
-
-/*
-.CodeMirror-hscrollbar::-webkit-scrollbar-thumb, .CodeMirror-vscrollbar::-webkit-scrollbar-thumb {
-    background-color: rgba(0,0,0,0.4) !important;
-}
-*/
-
-.CodeMirror-scrollbar-filler {
-	width: 0px;
-	height: 0px;
-}
-
 /**/
 
 .settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header {
@@ -1112,4 +1100,8 @@ button.btn.btn-settings:hover {
 	margin-left: 10px;
 	margin-right: 10px;
 	content: "-";
+}
+
+.bda-slist .bda-right .btn {
+	margin-left: 0px !important;
 }
