@@ -1025,6 +1025,7 @@ button.btn.btn-settings:hover {
     border: none;
 }
 
+/*
 .CodeMirror-scroll {
     background-color: rgba(0, 0, 0, 0.3) !important;
 }
@@ -1042,12 +1043,73 @@ button.btn.btn-settings:hover {
     position: relative;
 }
 
+.CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
+    box-sizing: content-box;
+	background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+*/
+
+/*BetterDiscord custom CSS window*/
+
+.CodeMirror, #bd-customcss-attach-controls, #bd-customcss-detach-controls, #bd-customcss-detach-container .CodeMirror-gutters {
+	background: transparent !important;
+}
+
+.CodeMirror-gutters {
+	background: #E3E3E3;
+}
+
+.CodeMirror-focused .CodeMirror-selected, .CodeMirror-line::selection, .CodeMirror-line>span::selection, .CodeMirror-line>span>span::selection {
+	background: #616875;
+}
+
+.CodeMirror-hscrollbar {
+	height: 17px;
+    width: calc(100% - 51px);
+}
+
+.CodeMirror-vscrollbar {
+	height: calc(100% - 17px);
+	width: 17px;
+}
+
+.CodeMirror-code {
+	color: #E3E3E3;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #fff;
+}
+
+/*
+.CodeMirror-hscrollbar::-webkit-scrollbar-thumb, .CodeMirror-vscrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.4) !important;
+}
+*/
+
+.CodeMirror-scrollbar-filler {
+	width: 0px;
+	height: 0px;
+}
+
+/**/
+
 .settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header {
     background: rgba(24, 24, 23, 0);
     background: rgba(0,0,0,0);
 }
 
-.CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
-    box-sizing: content-box;
-	background-color: rgba(0, 0, 0, 0.3) !important;
+.keybind-shortcut span {
+	box-shadow: inset 0 -4px 0 rgba(40,41,41,0.4);
+}
+
+.channel-textarea-autocomplete-inner .user {
+	color: hsla(0, 0%, 79%, 0.6) !important;
+}
+
+.channel-textarea-autocomplete-inner .user-description::before {
+	margin-left: 10px;
+	margin-right: 10px;
+	content: "-";
 }
