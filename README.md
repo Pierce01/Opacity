@@ -15,7 +15,7 @@ Demo Video: http://a.pomf.cat/yuscgt.gif
 
 1. Place both css files into theme folder
 2. Place plugin of choice (or both) in plugin folder
-3. Enable Both css and plugin of choice
+3. Enable Both css and plugin of choice, only use ONE plugin at a time
 4. Profit!
 
 ###In order to have a single image follow these steps
