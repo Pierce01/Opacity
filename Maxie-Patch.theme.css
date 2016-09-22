@@ -1105,3 +1105,29 @@ button.btn.btn-settings:hover {
 .bda-slist .bda-right .btn {
 	margin-left: 0px !important;
 }
+
+.popout-menu {
+    background: rgba(0,0,0,0.5);
+	direction: rtl;
+	border-radius: 0px;
+}
+
+.popout-menu .popout-menu-icon {
+    margin-right: 0px;
+}
+
+.popout.popout-bottom, .popout.popout-bottom-right {
+    margin-top: 0px;
+}
+
+.popout-menu .popout-menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* FINALLY FIXED THAT BUG */
+/* no joke i dunno why this works but hey, it does */
+.chat .avatar-large:hover {
+	opacity: 1;
+	-webkit-filter: opacity(80%);
+}
+/*Seriously this does the same thing as the default css, just using webkit instead why does that fix the bug*/
