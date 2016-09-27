@@ -1,7 +1,7 @@
 #The currently unnamed theme by Bunnies McGee#0972 and Maxie#2116
 This is a work in progress theme designed with transparency in mind  
 
-`Updated: 22/09/2016`
+`Updated: 27/09/2016`
 
 Demo Video: http://a.pomf.cat/yuscgt.gif
 
