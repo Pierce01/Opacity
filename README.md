@@ -1,21 +1,20 @@
 #The currently unnamed theme by Bunnies McGee#0972 and Maxie#2116
 This is a work in progress theme designed with transparency in mind  
-
-`Updated: 27/09/2016`
+NOW WITH AUTOMATIC UPDATES FOR THE CSS
+`Updated: 29/09/2016`
 
 Demo Video: http://a.pomf.cat/yuscgt.gif
 
 ##Download
-- Main theme: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/BunniesMcGee.theme.css
-- Maxie Patch: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/Maxie-Patch.theme.css
+- Auto updating theme: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/
 - Server Image Plugin: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/Bunny.plugin.js
 - Local Image Plugin: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/BunnyLocal.plugin.js
 
 ## How to set up
 
-1. Place both css files into theme folder
+1. Download the Auto Updating Theme
 2. Place plugin of choice (or both) in plugin folder
-3. Enable Both css and plugin of choice, only use ONE plugin at a time
+3. Enable the css and plugin of choice, only use ONE plugin at a time
 4. Profit!
 
 ###In order to have a single image follow these steps
