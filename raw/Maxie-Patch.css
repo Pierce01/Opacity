@@ -1133,3 +1133,7 @@ button.btn.btn-settings:hover {
 .guilds-wrapper .guild-separator {
 	height: 0px;
 }
+
+.guilds-wrapper .guild-separator:after {
+	background: none;
+}
