@@ -21,8 +21,14 @@
     border: 1px solid rgba(0,0,0,0.5) !important;
 }
 
+/*
 .theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
     opacity: rgba(0,0,0,0.5) !important;
+}
+*/
+
+.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+    margin-top: 30px;
 }
 
 .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre {
@@ -1136,4 +1142,8 @@ button.btn.btn-settings:hover {
 
 .guilds-wrapper .guild-separator:after {
 	background: none;
+}
+
+.emoji-picker .scroller .emoji-item.disabled {
+    opacity: 0.2;
 }
