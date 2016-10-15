@@ -12,8 +12,16 @@ Demo Video: (Loading)
 3. Click install
 3. Profit!
 
-###In order to have a single image follow these steps
-Simply just add the url in the box provided.
+###In order to have a custom image
+Please change the url in .app like this.
+```
+.app {
+    background-image: url(http or https here);
+    background-size: cover;
+    background-color: #8F99A8;
+    background-color: rgba(0, 0, 0, 0);
+}
+```
 
 Please note that due to restrictions in the https protocol (Do not ask about a fix for this as there is none), any image you use must be on a secure server, what this means is the url must start with https, one useful way to do this is by using an image hosting site such as [imgur](https://imgur.com), [fluntcaps](https://fluntcaps.me) or [pomf.cat](https://pomf.cat/)
 
