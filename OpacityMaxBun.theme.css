@@ -454,13 +454,6 @@
 }
 /*emoji menu */
 
-#bda-qem-favourite-container,
-#bda-qem-twitch-container,
-.emoji-picker .sticky-header,
-.emoji-picker .scroller {
-    background-color: transparent;
-    background: transparent;
-}
 .emoji-picker {
     border: 0px solid transparent;
 }
@@ -478,39 +471,6 @@
     box-shadow: 0 2px 6px 0 transparent;
     border: 1px solid transparent;
     border-radius: 3px;
-}
-.emoji-picker,
-#bda-gem,
-#bda-qem-favourite-container,
-#bda-qem-twitch-container {
-    background: rgba(0, 0, 0, 0.5) !important;
-    background-color: rgba(0, 0, 0, 0.5) !important;
-}
-#bda-qem {
-    background: rgba(0, 0, 0, 0.5);
-    background-color: rgba(0, 0, 0, 0.5);
-}
-#bda-qem button {
-    background: rgba(0, 0, 0, 0);
-    background-color: rgba(0, 0, 0, 0);
-    color: #D6D6D6;
-    border-left: 1px solid transparent;
-    box-shadow: transparent 1px 0 0 0;
-}
-#bda-qem button:hover {
-    background: rgba(0, 0, 0, 0.2) !important;
-    background-color: rgba(0, 0, 0, 0.2) !important;
-    color: #fff;
-}
-#bda-qem button.active {
-    background: rgba(0, 0, 0, 0.2) !important;
-    background-color: rgba(0, 0, 0, 0.2) !important;
-    color: #fff;
-}
-#bda-qem-twitch-container,
-#bda-qem-favourite-container {
-    width: 344px;
-    height: 326px;
 }
 /*File Upload*/
 
@@ -607,15 +567,6 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 .user-settings-modal .account-warning {
     background: rgba(49, 28, 28, 0.7);
-}
-.bda-slist li:nth-child(odd) {
-    background: rgba(0, 0, 0, 0);
-}
-.bda-slist li {
-    background: rgba(0, 0, 0, 0);
-}
-.bda-slist .bda-description {
-    color: #f0f0f0;
 }
 .form .btn:disabled {
     background-color: rgba(128, 128, 128, 0.4);
@@ -949,35 +900,6 @@ button.btn.btn-settings:hover {
 */
 /*BetterDiscord custom CSS window*/
 
-.CodeMirror,
-#bd-customcss-attach-controls,
-#bd-customcss-detach-controls,
-#bd-customcss-detach-container .CodeMirror-gutters {
-    background: transparent !important;
-}
-.CodeMirror-gutters {
-    background: #E3E3E3;
-}
-.CodeMirror-focused .CodeMirror-selected,
-.CodeMirror-line::selection,
-.CodeMirror-line>span::selection,
-.CodeMirror-line>span>span::selection {
-    background: #616875;
-}
-.CodeMirror-hscrollbar {
-    height: 17px;
-    width: calc(100% - 47px);
-}
-.CodeMirror-vscrollbar {
-    height: calc(100% - 17px);
-    width: 17px;
-}
-.CodeMirror-code {
-    color: #E3E3E3;
-}
-.CodeMirror-cursor {
-    border-left: 1px solid #fff;
-}
 /**/
 
 .settings .settings-inner,
@@ -999,9 +921,7 @@ button.btn.btn-settings:hover {
     margin-right: 10px;
     content: "-";
 }
-.bda-slist .bda-right .btn {
-    margin-left: 0px !important;
-}
+
 .popout-menu {
     background: rgba(0, 0, 0, 0.5);
     direction: rtl;
