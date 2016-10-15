@@ -1,6 +1,7 @@
 #Opacity by Bunnies McGee#0972 and Maxie#2116
 ```
-Note from Bun; All credit for this web version of Opacity goes to Maxie, so be sure to thank him and not me if you use this version :3
+Note from Bun; All credit for this web version of Opacity goes to Maxie;
+So be sure to thank him and not me if you use this version :3
 ```
 This is a work in progress theme designed with transparency in mind  
 Stylish does not allow @import so please look at this Github page for updates.
