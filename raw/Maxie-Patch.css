@@ -1147,3 +1147,14 @@ button.btn.btn-settings:hover {
 .emoji-picker .scroller .emoji-item.disabled {
     opacity: 0.2;
 }
+
+
+/* FINALLY gonna style those drop-down boxes */
+.user-settings-modal-keybinds .user-settings-modal-keybinds-list .control-group .Select-control, .Select input, .Select span {
+	background: rgba(0,0,0,0.5) !important;
+	background-color: rgba(0,0,0,0.2) !important;
+}
+
+.form .Select-option.is-focused {
+	background-color: rgba(0,0,0,0.5) !important;
+}
