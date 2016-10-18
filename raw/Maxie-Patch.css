@@ -1150,12 +1150,12 @@ button.btn.btn-settings:hover {
 
 
 /* FINALLY gonna style those drop-down boxes */
-.form .Select-control {
+.user-settings-modal-keybinds .user-settings-modal-keybinds-list .control-group .Select-control {
 	background: transparent !important;
 }
 .user-settings-modal-keybinds .user-settings-modal-keybinds-list .control-group .Select-control, .Select input, .Select span {
-	background: rgba(0,0,0,0.5) !important;
-	background-color: rgba(0,0,0,0.2) !important;
+	background: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
 }
 
 .form .Select-option.is-focused {
