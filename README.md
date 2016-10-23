@@ -5,7 +5,7 @@ So be sure to thank him and not me if you use this version :3
 ```
 This is a work in progress theme designed with transparency in mind  
 Stylish does not allow @import so please look at this Github page for updates.
-`Updated: 10/14/16`
+`Updated: 23/14/16`
 
 Demo Video: (Loading)
 
