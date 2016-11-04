@@ -975,7 +975,8 @@ button.btn.btn-settings:hover {
 }
 
 .message-group:not(.has-divider) {
-	border-bottom-color: transparent !important;
+    border-bottom-color: transparent !important;
+    -webkit-backface-visibility: hidden;
 }
 
 .notice.notice-streamer-mode {
