@@ -1175,6 +1175,6 @@ button.btn.btn-settings:hover {
 	color: #E3E3E3;
 }
 
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator{
 	color: #A2A2A2;
 }
