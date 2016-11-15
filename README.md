@@ -1,7 +1,7 @@
 #"Opacity" by Bunnies McGee#0972 and Maxie#2116
 This is a work in progress theme designed with transparency in mind  
 NOW WITH AUTOMATIC UPDATES FOR THE CSS
-`Updated: 04/11/2016`
+`Updated: 11/15/2016`
 
 Demo Video: http://a.pomf.cat/yuscgt.gif
 
