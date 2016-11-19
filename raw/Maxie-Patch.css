@@ -414,10 +414,10 @@
     background-color: rgba(0,0,0,0);
 }
 .guild-settings-modal-members .guild-settings-modal-list .member .member-inner {
-	-webkit-filter: brightness(400%);
+	-webkit-filter: brightness(100%);
 }
 .guild-settings-modal-members .guild-settings-modal-list .member .bot-tag {
-	-webkit-filter: brightness(25%);
+	-webkit-filter: brightness(100%);
 }
 .guild-settings-modal-members .guild-settings-modal-list .member+.member {
     border-top: 1px solid rgba(236,238,239,0.1);
