@@ -1178,3 +1178,8 @@ button.btn.btn-settings:hover {
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator{
 	color: #A2A2A2;
 }
+
+.message-group .embed {
+	background-color: transparent;
+	border-color: transparent;
+}
