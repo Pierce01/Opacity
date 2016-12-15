@@ -1187,3 +1187,7 @@ button.btn.btn-settings:hover {
 .settings .settings-inner .settings-panel-with-header {
     padding: 14px 26px 0px 40px;
 }
+
+.channel-members {
+	padding-top: 0px;
+}
