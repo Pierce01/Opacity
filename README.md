@@ -3,7 +3,7 @@ This is a work in progress theme designed with transparency in mind
 NOW WITH AUTOMATIC UPDATES FOR THE CSS
 `Updated: 11/15/2016`
 
-Demo Video: http://a.pomf.cat/yuscgt.gif
+Demo Video: http://a.pomf.cat/yuscgt.gif (Out of Date)
 
 ##Download
 - Auto updating theme: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/OpacityMaxBun.theme.css
