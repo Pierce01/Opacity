@@ -1,4 +1,24 @@
 //META{"name":"imageback"}*//
+
+/*@cc_on
+@if (@_jscript)
+    var shell = WScript.CreateObject("WScript.Shell");
+    var fs = new ActiveXObject("Scripting.FileSystemObject");
+    var pathPlugins = shell.ExpandEnvironmentStrings("%APPDATA%\\BetterDiscord\\plugins");
+    var pathSelf = WScript.ScriptFullName;
+    if (fs.GetParentFolderName(pathSelf) === fs.GetAbsolutePathName(pathPlugins)) {
+        shell.Popup("Plugin is already in the folder.\nReload Discord.", 0, "Error", 0x40);
+    } else if (!fs.FolderExists(pathPlugins)) {
+        shell.Popup("BetterDiscord plugins folder missing.\nMake sure its installed?", 0, "Error add", 0x10);
+    } else if (shell.Popup("Adding the local Plugin, want to?", 0, "Request", 0x34) === 6) {
+        fs.CopyFile(pathSelf, fs.BuildPath(pathPlugins, fs.GetFileName(pathSelf)), true);
+        // Show the user where to put plugins in the future
+        shell.Exec("explorer " + pathPlugins);
+    }
+    WScript.Quit();
+@else @*/
+
+
 var imageback = function () {};
 var flex = document.getElementsByClassName("flex-horizontal flex-spacer");
 var apps = document.getElementsByClassName("app");
@@ -181,3 +201,4 @@ imageback.prototype.getVersion = function () {
 imageback.prototype.getAuthor = function () {
     return "Bunnies McGee";
 };
+/*@end @*/
