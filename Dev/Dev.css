@@ -17,6 +17,11 @@ body {
 	background-color: rgba(0,0,0,0) !important;
 }
 
+.theme-dark .invite-button {
+    border-color: rgba(0,0,0,0) !important;
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+
 
 .private-channel-call {
 	background-color: rgba(0,0,0,0.7) !important;
@@ -1682,9 +1687,4 @@ button.btn.btn-settings:hover {
 
 .settings .settings-header {
     border-radius: 26px;
-}
-
-.theme-dark .invite-button {
-    border-color: rgba(0,0,0,0) !important;
-    background: rgba(0, 0, 0, 0.2) !important;
 }
