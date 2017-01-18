@@ -1675,12 +1675,16 @@ button.btn.btn-settings:hover {
 
 .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn,
 .popout .themed-popout .header,
-.message-group-blocked,
-.theme-dark .invite-button {
+.message-group-blocked {
     border-color: rgba(0,0,0,0) !important;
     background: rgba(0, 0, 0, 0.2) !important;
 }
 
 .settings .settings-header {
     border-radius: 26px;
+}
+
+.theme-dark .invite-button {
+    border-color: rgba(0,0,0,0) !important;
+    background: rgba(0, 0, 0, 0.2) !important;
 }
