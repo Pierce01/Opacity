@@ -17,8 +17,8 @@ body {
 	background-color: rgba(0,0,0,0) !important;
 }
 
-.invite-button {
-    border-color: rgba(0,0,0,0)!important;
+.theme-dark .invite-button {
+    border-color: rgba(0,0,0,0) !important;
     background: rgba(0, 0, 0, 0.2) !important;
 }
 
@@ -29,6 +29,7 @@ body {
 	background-image: url() !important;
 }
 
+/* This code is for our BD plugin.*/
 #previousButton {
     color: rgba(255,255,255,0.3);
 	background-color: rgba(0,0,0,0) !important;
@@ -498,6 +499,7 @@ body {
 
 .message-group .comment .markup pre code {
     background: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0);
 }
 
 .theme-light .message-group .comment .markup code.inline, .theme-light .message-group .comment .markup pre {
