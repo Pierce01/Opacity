@@ -17,8 +17,8 @@ body {
 	background-color: rgba(0,0,0,0) !important;
 }
 
-.theme-dark .invite-button {
-    border-color: rgba(0,0,0,0) !important;
+.invite-button {
+    border-color: rgba(0,0,0,0)!important;
     background: rgba(0, 0, 0, 0.2) !important;
 }
 
