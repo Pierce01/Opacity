@@ -12,18 +12,56 @@ body {
     background-size: 1920px auto;
 }
 
-.theme-dark .chat {
-	background-color: rgba(0,0,0,0) !important;
-}
-
+.theme-dark .chat,
 .theme-light .chat {
 	background-color: rgba(0,0,0,0) !important;
 }
+
 
 .private-channel-call {
 	background-color: rgba(0,0,0,0.7) !important;
 	box-shadow: inset 0 -4px 10px 0 rgba(0,0,0,0) !important;
 	background-image: url() !important;
+}
+
+#previousButton {
+    color: rgba(255,255,255,0.3);
+	background-color: rgba(0,0,0,0) !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    font-size: 10px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+	cursor: pointer;
+	position: fixed;
+	bottom: 2px;
+    left: 230px;
+}
+
+#nextButton {
+    color: rgba(255,255,255,0.3);
+	background-color: rgba(0,0,0,0) !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    font-size: 10px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+	cursor: pointer;
+	position: fixed;
+	bottom: 2px;
+    left: 260px;
+}
+
+#previousButton:hover {
+    text-decoration: underline;
+}
+
+#nextButton:hover {
+    text-decoration: underline;
 }
 
 .theme-light .message-group {
@@ -276,7 +314,6 @@ body {
 .theme-dark .chat form {
     background-color: rgba(0,0,0,0) !important;
 }
-*/
 
 /*--------------------------------------------*/
 .theme-light .channel-members {
@@ -754,11 +791,11 @@ body {
     width: 20px;
     height: 20px;
     border: 2px solid #666a6e;
-	background: rgba(0,0,0,0);
+	background: transparent;
 }
 
 .search-bar-clear:before {
-    background: rgba(0,0,0,0);
+    background: transparent;
 }
 
 .search-bar-clear:after {
@@ -770,10 +807,10 @@ body {
 }
  
  .search-bar input {
-    background: rgba(0,0,0,0);
+    background: transparent;
 }
 .emoji-picker .search-bar input {
-	background: rgba(0,0,0,0);
+	background: transparent;
 }
 
 #friends .friends-header {
@@ -845,7 +882,7 @@ body {
 
 .settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header  {
 	background: rgba(24, 24, 23, 0);
-	background: rgba(0,0,0,0);
+	background: transparent;
 }
 
 .avatar-uploader .avatar-uploader-inner {
@@ -875,9 +912,7 @@ body {
 .guild-settings-modal-members .guild-settings-modal-list .member .bot-tag {
 	-webkit-filter: brightness(100%);
 }
-.guild-settings-modal-members .guild-settings-modal-list .member+.member {
-    border-top: 1px solid rgba(236,238,239,0.1);
-}
+
 .search-bar.search-bar-light .search-bar-inner {
     background-color: transparent;
     border: transparent;
@@ -989,7 +1024,7 @@ body {
 }
 
 #bda-qem button {
-	background: rgba(0,0,0,0);
+	background: transparent;
     background-color: rgba(0,0,0,0);
 	color: #D6D6D6;
 	border-left: 1px solid transparent;
@@ -1060,12 +1095,6 @@ body {
 .form .form-actions {
     background-color: rgba(0,0,0,0);
     border-top: 1px solid rgba(0,0,0,0.5);
-    box-sizing: border-box;
-    width: 100%;
-    padding: 18px 40px;
-    border-radius: 0 0 5px 5px;
-    text-align: right;
-    flex-shrink: 0;
 }
 
 .modal-content .form-inner p:first-child {
@@ -1121,15 +1150,11 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 
 .bda-slist li:nth-child(odd) {
-	background: rgba(0,0,0,0);
+	background: transparent;
 }
 
 .bda-slist li {
-	background: rgba(0,0,0,0);
-}
-
-.bda-slist .bda-description {
-	color: #f0f0f0;
+	background: transparent;
 }
 
 .form .btn:disabled {
@@ -1140,16 +1165,14 @@ div.control-group .shortcut-recorder input[type=text] {
 	color: #f0f0f0;
 }
 
-.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations.no-integrations {
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations.no-integrations,
+.settings-connections-wrapper .authed-app .header .app-name, .settings-connections-wrapper .authed-app .details .header, .settings-connections-wrapper .authed-app .details .header,
+.bda-slist .bda-description {
 	color: #f0f0f0;
 }
 
 .settings-connections-wrapper .authed-app {
 	background: transparent;
-}
-
-.settings-connections-wrapper .authed-app .header .app-name, .settings-connections-wrapper .authed-app .details .header, .settings-connections-wrapper .authed-app .details .header {
-	color: #f0f0f0;
 }
 
 .friends-table .messages .divider span, .messages-wrapper .messages .divider span {
@@ -1546,7 +1569,7 @@ button.btn.btn-settings:hover {
 
 .settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header {
     background: rgba(24, 24, 23, 0);
-    background: rgba(0,0,0,0);
+    background: transparent;
 }
 
 .keybind-shortcut span {
