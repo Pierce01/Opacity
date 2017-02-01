@@ -1198,3 +1198,31 @@ button.btn.btn-settings:hover {
 .message-group-blocked {
 	background: rgba(0, 0, 0, 0.2) !important;
 }
+
+
+/* Search Update */
+.search-results-wrap {
+    background-color: rgba(0,0,0,0.2) !important;
+    z-index: 1;
+}
+
+.search-header {
+    background-color: transparent !important;
+}
+
+.search-results .channel-separator:before {
+    border-bottom: 1px transparent !important;
+}
+
+.channel-separator .channel-name {
+    background-color: transparent !important;
+}
+
+.search-results-wrap .search-result:before, .search-results-wrap .search-result:after {
+    background-image: none !important;
+}
+
+.search-results-wrap .search-result .hit {
+    background-color: rgba(0,0,0,0.3) !important;
+    box-shadow: none !important;
+}
