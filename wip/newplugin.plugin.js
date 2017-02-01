@@ -21,23 +21,21 @@ var setBackground = function(number) {
 }
 
 function fadeOutThenIn(newDiv, index, array, url) {
-	$(newDiv).fadeOut(1000)
-		.delay(300)
-		.css('background-image', "url('"+ url + array[index] + "')")
-		.fadeIn(1000)
-		.queue(function(){
-			console.log("Current background image: Index = " + index + ", URL = " + url + array[index]);
-		});
+	$(newDiv).fadeOut(1000);
+	setTimeout(function() {
+		newDiv.style.backgroundImage = "url('"+ url + array[index] + "')";
+	}, 800);
+	$(newDiv).fadeIn(1000);
+	console.log("Current background image: Index = " + index + ", URL = " + url + array[index]);
 	return;
 }
 
 function fadeIn(newDiv, index, array, url) {
-	$(newDiv).css('background-image', "url('"+ url + array[index] + "')")
-		.delay(300)
-		.fadeIn(1000)
-		.queue(function(){
-			console.log("Current background image: Index = " + index + ", URL = " + url + array[index]);
-		});
+	newDiv.style.backgroundImage = "url('"+ url + array[index] + "')";
+	setTimeout(function() {
+		$(newDiv).fadeIn(1000);
+	}, 300);
+	console.log("Current background image: Index = " + index + ", URL = " + url + array[index]);
 	return;
 }
 
