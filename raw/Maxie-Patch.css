@@ -1226,3 +1226,14 @@ button.btn.btn-settings:hover {
     background-color: rgba(0,0,0,0.3) !important;
     box-shadow: none !important;
 }
+
+/* Scrollbar */
+.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+}
+
+.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.5) !important;
+    border: 3px solid transparent !important;
+}
+
