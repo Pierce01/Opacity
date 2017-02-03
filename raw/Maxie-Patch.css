@@ -1237,3 +1237,13 @@ button.btn.btn-settings:hover {
     border: 3px solid transparent !important;
 }
 
+
+/* Status */
+.popout-menu-item .status {
+    margin-right: initial !important;
+    margin-left: 10px;
+}
+
+.popout-menu-item .helper {
+    margin: 4px 20px 0 0px !important;
+}
