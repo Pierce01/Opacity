@@ -1,4 +1,4 @@
-#"Opacity" by Bunnies McGee#0972 and Maxie#0713
+#"Opacity" by Bunnies McGee#0972 and Maxie#0218
 This is a work in progress theme designed with transparency in mind  
 NOW WITH AUTOMATIC UPDATES FOR THE CSS
 `Updated: 11/15/2016`
