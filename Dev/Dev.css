@@ -1690,3 +1690,8 @@ button.btn.btn-settings:hover {
 .settings .settings-header {
     border-radius: 26px;
 }
+
++/*Canary Temp fix */
+ +.layers {
+ +    background: transparent !important;
+ +}
