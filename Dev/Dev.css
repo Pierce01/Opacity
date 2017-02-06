@@ -1691,7 +1691,7 @@ button.btn.btn-settings:hover {
     border-radius: 26px;
 }
 
-+/*Canary Temp fix */
- +.layers {
- +    background: transparent !important;
- +}
+/*Canary Temp fix */
+ .layers {
+     background: transparent !important;
+ }
