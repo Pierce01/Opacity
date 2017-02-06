@@ -20,27 +20,37 @@ menuDraggable.prototype.convert = function () {
 	function DetectedClick() {
 		if (document.getElementById("draggable-grip") != null) _destroy();
 		setTimeout(function(){
-			var newP = document.createElement("div");
-			newP.style.cssText = "width:800px; height:20px; cursor:move; position:fixed";
-			newP.id = "draggable-grip";
 			var parent_Node = document.getElementsByClassName('modal-inner')[0];
-			if (parent_Node == null) return;
+			if (parent_Node == null)
+				//parent_Node = document.getElementsByClassName('popout popout-right no-arrow')[0];
+				//if (parent_Node == null)
+				//	return;
+			
+			var newP = document.createElement("div");
+			newP.style.cssText = "width:" + parent_Node.offsetWidth +"px; height:20px; cursor:move; position:fixed";
+			newP.id = "draggable-grip";
+			
+			
 			if (document.getElementById("draggable-grip") == null) parent_Node.appendChild(newP);
 			parent_Node.style.position = "fixed";
 			
-			if (containsElement(selection_array, parent_Node.firstChild.className) == false) selection_array.push({name: parent_Node.firstChild.className, pos: {left_pos: null, top_pos: null}});
+			console.log(parent_Node.firstChild.className);
+			if (containsElement(selection_array, parent_Node.firstChild.className) == false)
+				if (parent_Node.firstChild.className != "modal-image") selection_array.push({name: parent_Node.firstChild.className, pos: {left_pos: null, top_pos: null}});
 			
 			var i = findElement(selection_array, parent_Node.firstChild.className);
 			if (i != null) {
 				//console.log("Found element!");
 				if (selection_array[i].pos.left_pos != null) {
-					parent_Node.style.left = selection_array[i].pos.left_pos + 'px';
-					parent_Node.style.top = selection_array[i].pos.top_pos + 'px';
-					
-					if (parseInt(parent_Node.style.left.replace('px', null)) < left_margin) parent_Node.style.left = left_margin + 'px';
-					if (parseInt(parent_Node.style.top.replace('px', null)) < top_margin) parent_Node.style.top = top_margin + 'px';
-					if (parseInt(parent_Node.style.left.replace('px', null)) > (window.innerWidth - parent_Node.offsetWidth - right_margin)) parent_Node.style.left = window.innerWidth - parent_Node.offsetWidth - right_margin  + 'px';
-					if (parseInt(parent_Node.style.top.replace('px', null)) > (window.innerHeight - parent_Node.offsetHeight - bottom_margin)) parent_Node.style.top = window.innerHeight - parent_Node.offsetHeight - bottom_margin + 'px';
+					if (parent_Node.firstChild.className != "modal-image") {
+						parent_Node.style.left = selection_array[i].pos.left_pos + 'px';
+						parent_Node.style.top = selection_array[i].pos.top_pos + 'px';
+						
+						if (parseInt(parent_Node.style.left.replace('px', null)) < left_margin) parent_Node.style.left = left_margin + 'px';
+						if (parseInt(parent_Node.style.top.replace('px', null)) < top_margin) parent_Node.style.top = top_margin + 'px';
+						if (parseInt(parent_Node.style.left.replace('px', null)) > (window.innerWidth - parent_Node.offsetWidth - right_margin)) parent_Node.style.left = window.innerWidth - parent_Node.offsetWidth - right_margin  + 'px';
+						if (parseInt(parent_Node.style.top.replace('px', null)) > (window.innerHeight - parent_Node.offsetHeight - bottom_margin)) parent_Node.style.top = window.innerHeight - parent_Node.offsetHeight - bottom_margin + 'px';
+					}
 				}
 			}
 			//console.log(selection_array);
@@ -142,7 +152,8 @@ menuDraggable.prototype.stop = function () {
 };
 
 menuDraggable.prototype.getSettingsPanel = function () {
-    return "";
+	var html = '<div onload="updateShownValues()"><h3>Emoji Size Options</h3><input type="range" id="smallRangeSlider" value="22" onchange="updateSmallEmoji()"><p id="smallRangeDisplay"></p><input type="range" id="bigRangeSlider" value="32" onchange="updateBigEmoji()"><p id="bigRangeDisplay"></p></div><script>function updateShownValues() {updateBigEmoji();updateSmallEmoji();}function updateSmallEmoji() {var x = document.getElementById("smallRangeSlider").value;document.getElementById("smallRangeDisplay").innerHTML = x;}function updateBigEmoji() {var x = document.getElementById("bigRangeSlider").value;document.getElementById("bigRangeDisplay").innerHTML = x;}</script>';
+    return html;
 };
 
 menuDraggable.prototype.getName = function () {
