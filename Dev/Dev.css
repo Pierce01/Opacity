@@ -1717,6 +1717,11 @@ button.btn.btn-settings:hover {
 	background-color: rgba(50, 50, 50, 0.5);
 }
 
+.webhooks .webhook .webhook-header .webhook-details .webhook-name,
+.webhooks .webhook .webhook-header .webhook-details .webhook-created-on {
+	color: #FFFFFF;
+}
+
 .guild-settings-modal-emoji .emoji-row .emoji-name {
 	background-color: rgb(50, 50, 50) !important;
 	color: #FFFFFF;
