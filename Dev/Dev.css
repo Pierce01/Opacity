@@ -1695,3 +1695,7 @@ button.btn.btn-settings:hover {
  .layers {
      background: transparent !important;
  }
+
+.flex-spacer { 
+     background: transparent !important; 
+}
