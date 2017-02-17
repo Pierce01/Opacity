@@ -425,10 +425,6 @@ body {
     transition:opacity 300ms ease, margin 100ms ease;   
 }
 
-.channel-members .member .member-username-inner{
-    margin-bottom:10px;
-}
-
 .channel-members:hover .member .member-activity, .channel-members:hover .member .member-username-inner{
     opacity:1;
 }
@@ -527,10 +523,6 @@ body {
 }
 */
 
-.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
-    margin-top: 30px;
-}
-
 .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre {
 	color: #839496 !important;
 }
@@ -619,8 +611,9 @@ body {
     border-left: 4px solid #7289da;
 }
 
-.form .btn-primary:hover {
-	background-color: #697ec4;
+.form .btn-primary {
+	background-color: rgba(255,255,255,0.1);
+	color: #7289DA;
 }
 
 /* User popouts */
@@ -1138,7 +1131,8 @@ body {
 	padding: 10px;
 }
 
-.form .btn-default:hover {
+.form .btn-default:hover,
+.form .btn-primary:hover {
     background-color: rgba(255, 255, 255, 0.2);
 	border-bottom-color: rgba(255, 255, 255, 0);
 }
@@ -1725,4 +1719,51 @@ button.btn.btn-settings:hover {
 .guild-settings-modal-emoji .emoji-row .emoji-name {
 	background-color: rgb(50, 50, 50) !important;
 	color: #FFFFFF;
+}
+
+.status-text {
+	margin-right: 10px;
+}
+
+.has-value>.Select-control>.Select-placeholder,
+.form .Select-option, .form .has-value .Select-placeholder,
+.Select-menu-outer,
+.Select-value {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #FFFFFF !important;
+}
+
+.Select-control,
+.Select-option {
+	opacity: 0.5;
+}
+
+.form .Select-option.is-focused {
+	color: #FFFFFF;
+}
+
+.create-guild-container .action {
+	background: none;
+}
+
+.user-settings-modal-keybinds .user-settings-modal-keybinds-header .btn-primary,
+.create-guild-container .action.join .btn,
+.create-guild-container .action.create .btn {
+	color: #FFFFFF;
+}
+
+.form .btn-default:hover,
+.form .btn-primary:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+	border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+.create-guild-container .action .btn,
+.create-guild-container .action:hover.join .btn  {
+	background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.create-guild-container .action .btn:hover,
+.create-guild-container .action.join .btn:hover {
+	background-color: rgba(255, 255, 255, 0.2) !important;
 }
