@@ -1,5 +1,4 @@
-#Opacity by Bunnies McGee#0972 and Maxie#2116
-
+#Opacity by Bunnies McGee#0972 and Maxie#7555
 #Rewrite by Maxie
 ```
 Note: Dev rewrite :)
