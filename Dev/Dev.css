@@ -1692,10 +1692,32 @@ button.btn.btn-settings:hover {
 }
 
 /*Canary Temp fix */
- .layers {
+.layers {
      background: transparent !important;
- }
+}
 
-.flex-spacer { 
-     background: transparent !important; 
+.form .btn-clear,
+.guild-settings-modal .member-buttons .btn, 
+.guild-settings-modal .member-buttons .btn+.btn,
+.guild-settings-modal-emoji .emoji-row:hover .btn,
+.instant-invites .instant-invite-buttons .btn.btn-danger {
+	 background-color: rgba(0, 0, 0, 0.2);
+}
+
+.form .btn-clear:hover,
+.guild-settings-modal .member-buttons .btn:hover, 
+.guild-settings-modal .member-buttons .btn+.btn:hover,
+.guild-settings-modal-emoji .emoji-row:hover .btn:hover,
+.instant-invites .instant-invite-buttons .btn.btn-danger:hover,
+.guild-settings-modal .member-buttons .btn.btn-danger:hover {
+	 background-color: rgba(100, 100, 100, 0.2);
+}
+
+.webhooks .webhook {
+	background-color: rgba(50, 50, 50, 0.5);
+}
+
+.guild-settings-modal-emoji .emoji-row .emoji-name {
+	background-color: rgb(50, 50, 50) !important;
+	color: #FFFFFF;
 }
