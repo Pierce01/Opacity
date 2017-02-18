@@ -21,12 +21,12 @@ If you don't have an 1080p image, you could just always add this instead right u
 ```
 
 .app {
-	background-size: cover;
+    background-size: cover;
     background-image: url(https url here);
 }
 ```
 
-Please note that due to restrictions in the https protocol, any image you use must be on a secure server, what this means is the url must start with https, one useful way to do this is by using an image hosting site such as [imgur](https://imgur.com), [fluntcaps](https://fluntcaps.me) or [pomf.cat](https://pomf.cat/)
+Please note that due to restrictions in the https protocol, any image you use must be on a secure server, what this means is the url must start with https, one useful way to do this is by using an image hosting site such as [imgur](https://imgur.com), [safe.moe](https://safe.moe) or [pomf.cat](https://pomf.cat/)
 
 Lastly, Save your changes and the image should be set
 
