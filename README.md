@@ -1,11 +1,11 @@
-#"Opacity" by Bunnies McGee#0972 and Maxie#7555
+# "Opacity" by Bunnies McGee#0972 and Maxie#7555
 This is a work in progress theme designed with transparency in mind  
 NOW WITH AUTOMATIC UPDATES FOR THE CSS
 `Updated: 11/15/2016`
 
 Demo Video: http://a.pomf.cat/yuscgt.gif (Out of Date)
 
-##Download
+## Download
 - Auto updating theme: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/OpacityMaxBun.theme.css
 - Server Image Plugin: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/Bunny.plugin.js
 - Local Image Plugin: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/BunnyLocal.plugin.js
