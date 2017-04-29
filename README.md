@@ -37,7 +37,7 @@ With a lot of help from @Razzile, I have been able to rewrite the plugin so that
 
 1. Create a folder called "img", without quotes, in the plugin folder for better discord.
 2. Place all images you want loaded in that folder (ensure only static images are in the folder, gifs not tested)
-3. Go into plugin and find `C:\\Users\\james\\AppData\\Roaming\\BetterDiscord\\plugins\\img\\` and replace "James" with your username.
+3. Go into plugin and find `C:\Users\James\AppData\Roaming\BetterDiscord\plugins\img\` and replace "James" with your username.
 4. Enable the local version of the plugin (and disable or remove the server image plugin)
 5. Restart discord to apply changes, either by pressing ctrl+r or closing on the taskbar and re-opening
 
