@@ -1685,9 +1685,8 @@ button.btn.btn-settings:hover {
     border-radius: 26px;
 }
 
-/*Canary Temp fix */
-.layers {
-     background: transparent !important;
+.theme-dark .layer, .theme-dark .layers {
+    background-color: transparent;
 }
 
 .form .btn-clear,
