@@ -351,7 +351,7 @@
 
 
 /* this fixes one singular border */
-#voice-connection {
+#rtc-connection {
 	border-top: none !important;
 }
 
@@ -812,15 +812,15 @@ div.control-group .shortcut-recorder input[type=text] {
     border: 0 !important;
 }
 
-#voice-connection-popout header, #voice-connection-popout section, #autocomplete-popout header, #autocomplete-popout section {
+#rtc-connection-popout header, #rtc-connection-popout section, #autocomplete-popout header, #autocomplete-popout section {
 	background-color: #35393e !important;
 }
 
-#voice-connection-popout section {
+#rtc-connection-popout section {
 	border-radius: 0 0 0 0 !important;
 }
 
-#voice-connection-popout .popout.popout-top section:after, #voice-connection-popout .popout.popout-top-right section:after {
+#rtc-connection-popout .popout.popout-top section:after, #rtc-connection-popout .popout.popout-top-right section:after {
 	border-top-color: #35393e !important;
 }
 
