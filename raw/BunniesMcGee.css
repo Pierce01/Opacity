@@ -483,6 +483,6 @@
 }
 
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
-	'margin-right:-145px;
+	margin-right:-145px;
 	z-index:1;
 }
