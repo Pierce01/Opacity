@@ -812,6 +812,18 @@ div.control-group .shortcut-recorder input[type=text] {
     border: 0 !important;
 }
 
+/* Hot Fix for canary */
+div[class*="container-"], div[class*="content-"] {
+	background-color: rgba(0,0,0,0);
+}
+
+#rtc-connection .btn, #rtc-connection .btn-group, #rtc-connection .btn-disconnect, #rtc-connection {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+
 #rtc-connection-popout header, #rtc-connection-popout section, #autocomplete-popout header, #autocomplete-popout section {
 	background-color: #35393e !important;
 }
