@@ -48,8 +48,9 @@
 }
 
 #user-profile-modal {
-    background-color: rgba(0,0,0,0);
+	background: rgba(0,0,0,0.6)!important;
 }
+
 #user-profile-modal .header, #user-profile-modal .sub-header, #user-profile-modal .tab-bar, #user-profile-modal .scroller {
     background-color: rgba(0,0,0,0) !important;
 	background-image: url() !important;
@@ -88,6 +89,22 @@
     background-size: 128px 128px;
 }
 
+
+#user-profile-modal .avatar-wrapper {
+	background-color: transparent;
+}
+
+#user-profile-modal .header:after {
+    background-image: linear-gradient(-180deg,rgba(255,255,255,0),rgba(255,255,255,0)) !important;
+}
+
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
+	color: #E3E3E3;
+}
+
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator{
+	color: #A2A2A2;
+}
 
 /* General Colours, used for tooltips etc, Default is #7289da or rgba(114, 137, 218, 1)*/
 .tooltip {
@@ -813,9 +830,14 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 
 /* Hot Fix for canary */
-div[class*="container-"], div[class*="content-"] {
-	background-color: rgba(0,0,0,0);
+div[class*="container-"], div[class*="content-"]:not([class="content-region"]) {
+    background-color: rgba(0,0,0,0) !important;
 }
+
+div[class*="innerEnabled-"] {
+    background: transparent !important;
+}
+
 
 #rtc-connection .btn, #rtc-connection .btn-group, #rtc-connection .btn-disconnect, #rtc-connection {
   background: transparent;
@@ -1175,21 +1197,6 @@ button.btn.btn-settings:hover {
 	background-color: rgba(0,0,0,0.5) !important;
 }
 
-#user-profile-modal .avatar-wrapper {
-	background-color: transparent;
-}
-
-#user-profile-modal .header:after {
-    background-image: linear-gradient(-180deg,rgba(255,255,255,0),rgba(255,255,255,0)) !important;
-}
-
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
-	color: #E3E3E3;
-}
-
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator{
-	color: #A2A2A2;
-}
 
 .message-group .embed {
 	background-color: transparent;
