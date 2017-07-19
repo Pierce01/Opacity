@@ -830,12 +830,8 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 
 /* Hot Fix for canary */
-div[class*="container-"], div[class*="content-"]:not([class="content-region"]) {
+div[class*="container-"], div[class*="content-"]:not([class="content-region"]), div[class*="innerEnabled-"], div[class*="innerDisabled-"] {
     background-color: rgba(0,0,0,0) !important;
-}
-
-div[class*="innerEnabled-"] {
-    background: transparent !important;
 }
 
 
