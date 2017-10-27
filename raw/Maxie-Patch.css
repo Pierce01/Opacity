@@ -1266,3 +1266,18 @@ button.btn.btn-settings:hover {
 .theme-dark .layer, .theme-dark .layers {
     background-color: transparent;
 }
+
+
+/* Hotfix... */
+
+div[class*="channels-"], div[class*="container-"], div.titleWrapper-3Vi_wz.theme-dark > div {
+	background-color: rgba(0,0,0,.3) !important;
+}
+
+div.titleWrapper-3Vi_wz.theme-dark > div {
+	background-color: rgba(0,0,0,.6) !important;
+}
+
+form {
+	background-color: transparent !important;
+}
