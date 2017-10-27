@@ -1,4 +1,7 @@
 # "Opacity" by Bunnies McGee#0972 and Maxie#7555
+
+
+## Kinda Borked on canary rn
 This is a work in progress theme designed with transparency in mind  
 NOW WITH AUTOMATIC UPDATES FOR THE CSS
 `Updated: 11/15/2016`
