@@ -22,6 +22,7 @@
 var imageback = function () {};
 var apps = document.getElementsByClassName("app");
 var newDiv = document.createElement("div");
+var controlsContainer = document.createElement("div");
 var next = document.createElement("button");
 var prev = document.createElement("button");
 //var url = "https://bunniesmcgee.tk/rand/";
@@ -99,15 +100,21 @@ imageback.prototype.convert = function () {
 				newDiv.style.zIndex = "-1";
 				newDiv.style.backgroundSize = "cover";
 				newDiv.id = "bgImgContainer";
+
 				var links = document.getElementsByClassName("channels-3g2vYe");
-				$(links).append(prev);
+				$(links).append(controlsContainer);
+				controlsContainer.style.flex = "0 0 auto";
+				controlsContainer.style.flexFlow = "row";
+				controlsContainer.id = "controlsContainer";
+				$(controlsContainer).append(prev);
+				$(controlsContainer).append(next);
 				prev.innerHTML = "Prev";
 				prev.style.backgroundColor = "#282b30";
 				prev.id = "previousButton";
-				$(links).append(next);
 				next.innerHTML = "Next";
 				next.style.backgroundColor = "#282b30";
 				next.id = "nextButton";
+
 				console.log("Number of background images; " + (localarray.length - 1));
 				var randint = Math.floor(Math.random() * (localarray.length - 1));
 				index = randint;
