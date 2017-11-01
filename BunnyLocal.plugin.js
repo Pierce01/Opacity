@@ -20,7 +20,6 @@
 
 
 var imageback = function () {};
-var flex = document.getElementsByClassName("flex-horizontal flex-spacer");
 var apps = document.getElementsByClassName("app");
 var newDiv = document.createElement("div");
 var next = document.createElement("button");
@@ -64,7 +63,7 @@ imageback.prototype.convert = function () {
 				// }
 			// });
 
-			
+
 			var files = fs.readdirSync(localurl);
 			for (var i in files) {
 				var name = localurl + files[i];
@@ -90,8 +89,8 @@ imageback.prototype.convert = function () {
 			} else {
 				dontstart = true;
 			}
-			if (dontstart == false) {		
-				flex[0].appendChild(newDiv);
+			if (dontstart == false) {
+				document.body.appendChild(newDiv);
 				newDiv.style.width = "100%";
 				newDiv.style.height = "100%";
 				newDiv.style.position = "absolute";
@@ -99,9 +98,8 @@ imageback.prototype.convert = function () {
 				newDiv.style.top = "0";
 				newDiv.style.zIndex = "-1";
 				newDiv.style.backgroundSize = "cover";
-				newDiv.style.backgroundColor = flex[0].style.backgroundColor;
 				newDiv.id = "bgImgContainer";
-				var links = document.getElementsByClassName("flex-vertical channels-wrap");
+				var links = document.getElementsByClassName("channels-3g2vYe");
 				$(links).append(prev);
 				prev.innerHTML = "Prev";
 				prev.style.backgroundColor = "#282b30";
@@ -123,17 +121,17 @@ imageback.prototype.convert = function () {
 				}, 1300);
 				//console.log("Current background image: Index = " + index + ", URL = " + url + localarray[index]);
 			}
-			
+
 			$(next).on("click", function() {
 				if (incooldown == true) {
 					return;
 				}
-				
+
 				incooldown = true;
 				setTimeout(() => {
 					incooldown = false;
 				}, 1750);
-				
+
 				index = index + 1;
 				if (index == localarray.length) {
 					index = 0;
@@ -149,7 +147,7 @@ imageback.prototype.convert = function () {
 					$(newDiv).fadeIn(1000);
 				}, 1300);
 			});
-			
+
 			$(prev).on("click", function() {
 				if (incooldown == true) {
 					return;
@@ -158,7 +156,7 @@ imageback.prototype.convert = function () {
 				setTimeout(() => {
 					incooldown = false;
 				}, 1750);
-				
+
 				index = index - 1;
 				if (index == -1) {
 					index = (localarray.length-1);
