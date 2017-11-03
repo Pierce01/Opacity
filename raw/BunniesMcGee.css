@@ -2,7 +2,7 @@
     background-size: cover;
 	background-color: #8F99A8;
 	background-color: rgba(0,0,0,0);
-	
+
 }
 
 .theme-dark .chat {
@@ -201,7 +201,7 @@
 
 .guild-channels .channel {
 	font-size: 15.5px;
-}	
+}
 .guild-channels .channel-text.selected {
     background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0)) !important;
     background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0)) !important;
@@ -238,7 +238,7 @@
 .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
 	background-color: rgba(0,0,0,0) !important;
 	border: none !important;
-	
+
 }
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
 	background-color: rgba(0,0,0,0.2) !important;
@@ -277,7 +277,7 @@
 .theme-light #friends .friends-header {
 	background-color: rgba(0,0,0,0) !important;
 }
- 
+
 .private-channels {
 	background: rgba(0,0,0,0) !important;
 }
@@ -412,7 +412,7 @@
 .channel-members .member .member-activity,
 .channel-members .member .member-username-inner {
     opacity:0;
-    transition:opacity 300ms ease, margin 100ms ease;   
+    transition:opacity 300ms ease, margin 100ms ease;
 }
 
 .channel-members .member .member-username-inner{
@@ -485,4 +485,15 @@
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
 	margin-right:-145px;
 	z-index:1;
+}
+
+#app-mount {
+	background-color: rgba(0,0,0,0);
+}
+
+div[class*="titleBar-"] {
+	background-color: rgba(0,0,0,0.8);
+	margin-top: 0 !important;
+	padding-top: 4px;
+	/*fix your shit, discord*/
 }

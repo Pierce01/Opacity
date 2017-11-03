@@ -20,9 +20,9 @@
 
 
 var imageback = function () {};
-var flex = document.getElementsByClassName("flex-horizontal flex-spacer");
 var apps = document.getElementsByClassName("app");
 var newDiv = document.createElement("div");
+var controlsContainer = document.createElement("div");
 var next = document.createElement("button");
 var prev = document.createElement("button");
 //var url = "https://bunniesmcgee.tk/rand/";
@@ -64,7 +64,7 @@ imageback.prototype.convert = function () {
 				// }
 			// });
 
-			
+
 			var files = fs.readdirSync(localurl);
 			for (var i in files) {
 				var name = localurl + files[i];
@@ -90,8 +90,8 @@ imageback.prototype.convert = function () {
 			} else {
 				dontstart = true;
 			}
-			if (dontstart == false) {		
-				flex[0].appendChild(newDiv);
+			if (dontstart == false) {
+				document.body.appendChild(newDiv);
 				newDiv.style.width = "100%";
 				newDiv.style.height = "100%";
 				newDiv.style.position = "absolute";
@@ -99,17 +99,22 @@ imageback.prototype.convert = function () {
 				newDiv.style.top = "0";
 				newDiv.style.zIndex = "-1";
 				newDiv.style.backgroundSize = "cover";
-				newDiv.style.backgroundColor = flex[0].style.backgroundColor;
 				newDiv.id = "bgImgContainer";
-				var links = document.getElementsByClassName("flex-vertical channels-wrap");
-				$(links).append(prev);
+
+				var links = document.getElementsByClassName("channels-3g2vYe");
+				$(links).append(controlsContainer);
+				controlsContainer.style.flex = "0 0 auto";
+				controlsContainer.style.flexFlow = "row";
+				controlsContainer.id = "controlsContainer";
+				$(controlsContainer).append(prev);
+				$(controlsContainer).append(next);
 				prev.innerHTML = "Prev";
 				prev.style.backgroundColor = "#282b30";
 				prev.id = "previousButton";
-				$(links).append(next);
 				next.innerHTML = "Next";
 				next.style.backgroundColor = "#282b30";
 				next.id = "nextButton";
+
 				console.log("Number of background images; " + (localarray.length - 1));
 				var randint = Math.floor(Math.random() * (localarray.length - 1));
 				index = randint;
@@ -123,17 +128,17 @@ imageback.prototype.convert = function () {
 				}, 1300);
 				//console.log("Current background image: Index = " + index + ", URL = " + url + localarray[index]);
 			}
-			
+
 			$(next).on("click", function() {
 				if (incooldown == true) {
 					return;
 				}
-				
+
 				incooldown = true;
 				setTimeout(() => {
 					incooldown = false;
 				}, 1750);
-				
+
 				index = index + 1;
 				if (index == localarray.length) {
 					index = 0;
@@ -149,7 +154,7 @@ imageback.prototype.convert = function () {
 					$(newDiv).fadeIn(1000);
 				}, 1300);
 			});
-			
+
 			$(prev).on("click", function() {
 				if (incooldown == true) {
 					return;
@@ -158,7 +163,7 @@ imageback.prototype.convert = function () {
 				setTimeout(() => {
 					incooldown = false;
 				}, 1750);
-				
+
 				index = index - 1;
 				if (index == -1) {
 					index = (localarray.length-1);
