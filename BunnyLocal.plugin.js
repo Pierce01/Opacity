@@ -101,7 +101,7 @@ imageback.prototype.convert = function () {
 				newDiv.style.backgroundSize = "cover";
 				newDiv.id = "bgImgContainer";
 
-				var links = $('div[class^="channels-"]');
+				var links = $("[class*='channels-']")[0];
 				$(links).append(controlsContainer);
 				controlsContainer.style.flex = "0 0 auto";
 				controlsContainer.style.flexFlow = "row";
