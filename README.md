@@ -1,4 +1,4 @@
-# "Opacity" by Bunnies McGee#0972 and Maxie#7555
+# "Opacity" by Bunnies McGee#0972 and Pierce#1337
 
 
 ## No longer activly maintained. Patches will come out slowly.
