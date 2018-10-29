@@ -1279,3 +1279,48 @@ div[class*="title"] {
 form {
 	background-color: transparent !important;
 }
+
+/* Messy patch provided by yatsukiko#0001. Thanks! */
+.theme-dark .headerBar-UHpsPw{
+    background-color: rgba(0,0,0,.6)
+}
+
+.theme-dark .activityFeed-28jde9{
+    background-color: rgba(0,0,0,.6)
+}
+
+.theme-dark .title-3qD0b-{
+    background-color: rgba(0,0,0,.6)
+}
+
+.theme-dark .listeningAlong-2UPsxf {
+    background-color: rgba(0,0,0,.6)
+}
+
+.theme-dark .guildsWrapper-5TJh6A {background-color: rgba(0,0,0,.6)}
+
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3 {
+    background-color: rgba(0,0,0,.6)
+}
+
+.theme-dark .messagesWrapper-3lZDfY {background-color: rgba(0,0,0,.06)}
+
+.theme-dark .gameLibrary-TTDw4Y {
+	background-color: rgba(0,0,0,.6)
+}
+.theme-dark .header-39GIC8 {
+    background-color: rgba(0,0,0,.6)
+}
+.theme-dark .applicationStore-1pNvnv {
+    background-color: rgba(0,0,0,.6)
+}
+
+.channels-Ie2l6A{background-color: rgba(0,0,0,.6)}
+
+#friends {
+    background-color: rgba(0,0,0,0.6)!important;
+}
+
+div[class*="channels"], div[class*="container"] {
+    background-color: none !important;
+}
