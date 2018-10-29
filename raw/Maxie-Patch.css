@@ -1267,11 +1267,6 @@ button.btn.btn-settings:hover {
     background-color: transparent;
 }
 
-
-div[class*="channels"], div[class*="container"] {
-	background-color: rgba(0,0,0,.3) !important;
-}
-
 div[class*="title"] {
     background-color: rgba(0,0,0,.6) !important;
 }
