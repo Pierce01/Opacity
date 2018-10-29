@@ -1,15 +1,15 @@
 # "Opacity" by Bunnies McGee#0972 and Maxie#7555
 
 
-## Kinda Borked on canary rn
+## No longer activly maintained. Patches will come out slowly.
 This is a work in progress theme designed with transparency in mind  
 NOW WITH AUTOMATIC UPDATES FOR THE CSS
-`Updated: 11/15/2016`
+`Updated: 10/28/2018`
 
 ## Download
-- Auto updating theme: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/OpacityMaxBun.theme.css
-- Server Image Plugin: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/Bunny.plugin.js
-- Local Image Plugin: https://raw.githubusercontent.com/Maxie01/we-made-a-theme/master/BunnyLocal.plugin.js
+- Auto updating theme: https://raw.githubusercontent.com/Pierce01/Opacity/master/OpacityMaxBun.theme.css
+- Server Image Plugin: https://raw.githubusercontent.com/Pierce01/Opacity/master/Bunny.plugin.js
+- Local Image Plugin: https://raw.githubusercontent.com/Pierce01/Opacity/master/BunnyLocal.plugin.js
 
 ## How to set up
 
